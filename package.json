@@ -4,6 +4,10 @@
   "description": "Tailwind v4 utility library for Ionic",
   "main": "dist/ionic-utils.css",
   "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
     "build": "npx @tailwindcss/cli -i demo.css -o ./dist/ionic-utils.css --minify",
     "publish:public": "npm publish --access public",
     "publish:alpha": "npm version prerelease --preid=alpha && npm publish --tag alpha --access public",
@@ -15,8 +19,32 @@
     "url": "https://github.com/medbenmakhlouf/tailwind-ionic.git"
   },
   "devDependencies": {
+    "@angular/common": "^20.3.0",
+    "@angular/compiler": "^20.3.0",
+    "@angular/core": "^20.3.0",
+    "@angular/forms": "^20.3.0",
+    "@angular/platform-browser": "^20.3.0",
+    "@angular/router": "^20.3.0",
+    "@angular/build": "^20.3.9",
+    "@angular/cli": "^20.3.9",
+    "@angular/compiler-cli": "^20.3.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
     "@tailwindcss/cli": "^4.1.0",
-    "tailwindcss": "^4.1.0"
+    "tailwindcss": "^4.1.0",
+    "typescript": "~5.9.2"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
   },
   "peerDependencies": {
     "tailwindcss": "^4.0.0"
