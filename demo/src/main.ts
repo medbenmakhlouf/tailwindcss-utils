@@ -12,7 +12,7 @@ import {MatFormField, MatInput} from '@angular/material/input';
     <section>
       <button matButton="elevated">elevated</button>
       <button matButton="outlined">outlined</button>
-      <button matButton="filled">filled</button>
+      <button matButton="filled" class="mb-filled-container-color-sky-500">filled</button>
       <button matButton="tonal" >tonal</button>
       <button matButton>Basic</button>
     </section>
