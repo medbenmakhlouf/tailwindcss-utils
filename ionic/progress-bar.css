@@ -1,0 +1,7 @@
+/*
+Components:
+- ion-progress-bar
+*/
+@utility ion-progress-bar-bg-* {
+    --progress-background: --value(--color-*);
+}

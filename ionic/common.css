@@ -1,0 +1,609 @@
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-back-button
+- ion-button
+- ion-card
+- ion-chip
+- ion-content
+- ion-datetime
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-item-option
+- ion-list-header
+- ion-loading
+- ion-menu
+- ion-menu-button
+- ion-modal
+- ion-popover
+- ion-progress-bar
+- ion-router-link
+- ion-searchbar
+- ion-segment
+- ion-segment-button
+- ion-select
+- ion-skeleton-text
+- ion-tab-bar
+- ion-tab-button
+- ion-textarea
+- ion-toast
+- ion-toolbar
+*/
+@utility ion-bg-* {
+    --background: --value(--color-*, 'transparent');
+}
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-back-button
+- ion-item
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-toast
+- ion-toolbar
+*/
+@utility ion-min-h-* {
+    --min-height: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-back-button
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-toast
+*/
+@utility ion-min-w-* {
+    --min-width: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-range
+- ion-toast
+*/
+@utility ion-h-* {
+    --height: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-toast
+*/
+@utility ion-max-h-* {
+    --max-height: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-toast
+*/
+@utility ion-max-w-* {
+    --max-width: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-loading
+- ion-menu
+- ion-modal
+- ion-popover
+- ion-toast
+*/
+@utility ion-w-* {
+    --width: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-action-sheet
+- ion-alert
+- ion-loading
+- ion-modal
+- ion-popover
+*/
+@utility ion-backdrop-opacity-* {
+    --backdrop-opacity: --value(number); /*TODO*/
+}
+/*
+Components:
+- ion-action-sheet
+- ion-back-button
+- ion-badge
+- ion-breadcrumb
+- ion-button
+- ion-card
+- ion-card-subtitle
+- ion-card-title
+- ion-chip
+- ion-content
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-item-option
+- ion-label
+- ion-list-header
+- ion-menu-button
+- ion-note
+- ion-radio
+- ion-router-link
+- ion-searchbar
+- ion-segment-button
+- ion-spinner
+- ion-tab-bar
+- ion-tab-button
+- ion-textarea
+- ion-title
+- ion-toast
+- ion-toolbar
+*/
+@utility ion-text-* {
+    --color: --value(--color-*);
+}
+/*
+Components:
+- ion-action-sheet
+- ion-toast
+*/
+@utility ion-text-button-* {
+    --button-color: --value(--color-*);
+}
+/*
+Components:
+- ion-avatar
+- ion-back-button
+- ion-button
+- ion-checkbox
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-menu-button
+- ion-modal
+- ion-radio
+- ion-searchbar
+- ion-segment-button
+- ion-select
+- ion-skeleton-text
+- ion-textarea
+- ion-thumbnail
+- ion-toast
+- ion-toggle
+*/
+@utility ion-rounded-* {
+    --border-radius: --value(--radius-*);
+    --border-radius: --value(number)px;
+}
+/*
+Components:
+- ion-back-button
+- ion-badge
+- ion-button
+- ion-content
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-menu-button
+- ion-segment-button
+- ion-select
+- ion-tab-button
+- ion-textarea
+- ion-toolbar
+*/
+@utility ion-pt-* {
+    --padding-top: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-back-button
+- ion-badge
+- ion-button
+- ion-content
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-menu-button
+- ion-segment-button
+- ion-select
+- ion-tab-button
+- ion-textarea
+- ion-toolbar
+*/
+@utility ion-ps-* {
+    --padding-start: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-back-button
+- ion-badge
+- ion-button
+- ion-content
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-menu-button
+- ion-segment-button
+- ion-select
+- ion-tab-button
+- ion-textarea
+- ion-toolbar
+*/
+@utility ion-pe-* {
+    --padding-end: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-back-button
+- ion-badge
+- ion-button
+- ion-content
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-item-divider
+- ion-menu-button
+- ion-segment-button
+- ion-select
+- ion-tab-button
+- ion-textarea
+- ion-toolbar
+*/
+@utility ion-pb-* {
+    --padding-bottom: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-back-button
+- ion-breadcrumb
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+*/
+@utility ion-text-hover-* {
+    --color-hover: --value(--color-*);
+}
+/*
+Components:
+- ion-back-button
+- ion-breadcrumb
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+- ion-tab-button
+*/
+@utility ion-text-focused-* {
+    --color-focused: --value(--color-*);
+}
+/*
+Components:
+- ion-back-button
+- ion-breadcrumb
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+- ion-tab-button
+*/
+@utility ion-bg-focused-* {
+    --background-focused: --value(--color-*);
+}
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-checkbox
+- ion-fab-button
+- ion-item
+*/
+@utility ion-ease-* {
+    --transition: --value(integer); /*TODO*/
+}
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+*/
+@utility ion-bg-hover-opacity-* {
+    --background-hover-opacity: --value(number); /*TODO*/
+}
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+*/
+@utility ion-bg-hover-* {
+    --background-hover: --value(--color-*);
+}
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-menu-button
+- ion-segment-button
+- ion-tab-button
+*/
+@utility ion-bg-focused-opacity-* {
+    --background-focused-opacity: --value(number); /*TODO*/
+}
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-fab-button
+- ion-item
+- ion-select
+- ion-tab-button
+*/
+@utility ion-text-ripple-* {
+    --ripple-color: --value(--color-*);
+}
+/*
+Components:
+- ion-back-button
+- ion-button
+- ion-toolbar
+*/
+@utility ion-opacity-* {
+    --opacity: --value(number);
+}
+/*
+Components:
+- ion-back-button
+- ion-segment-button
+*/
+@utility ion-me-* {
+    --margin-end: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-back-button
+- ion-segment-button
+*/
+@utility ion-mb-* {
+    --margin-bottom: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-back-button
+- ion-segment-button
+*/
+@utility ion-ms-* {
+    --margin-start: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-back-button
+- ion-segment-button
+*/
+@utility ion-mt-* {
+    --margin-top: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-button
+- ion-checkbox
+- ion-fab-button
+- ion-input
+- ion-item
+- ion-list-header
+- ion-modal
+- ion-segment-button
+- ion-select
+- ion-textarea
+- ion-toast
+- ion-toolbar
+*/
+@utility ion-border-* {
+    --border-width: --value(number)px;
+    --border-color: --value(--color-*);
+    --border-style: --value('solid', 'dashed', 'dotted', 'double', 'groove', 'ridge', 'inset', 'outset', 'thin');
+}
+/*
+Components:
+- ion-button
+- ion-fab-button
+- ion-item
+*/
+@utility ion-text-activated-* {
+    --color-activated: --value(--color-*);
+}
+/*
+Components:
+- ion-button
+- ion-fab-button
+- ion-item
+*/
+@utility ion-bg-activated-* {
+    --background-activated: --value(--color-*);
+}
+/*
+Components:
+- ion-button
+- ion-fab-button
+- ion-popover
+- ion-searchbar
+- ion-toast
+*/
+@utility ion-shadow-* {
+    --box-shadow: --value(integer); /*TODO*/
+}
+/*
+Components:
+- ion-checkbox
+- ion-thumbnail
+*/
+@utility ion-size-* {
+    --size: --value(integer)px; /*TODO*/
+}
+/*
+Components:
+- ion-datetime
+- ion-skeleton-text
+*/
+@utility ion-bg-rgb-* {
+    --background-rgb: --value(integer); /*TODO*/
+}
+/*
+Components:
+- ion-input
+- ion-searchbar
+- ion-select
+- ion-textarea
+*/
+@utility ion-placeholder-opacity-* {
+    --placeholder-opacity: --value(number); /*TODO*/
+}
+/*
+Components:
+- ion-input
+- ion-searchbar
+- ion-select
+- ion-textarea
+*/
+@utility ion-placeholder-color-* {
+    --placeholder-color: --value(--color-*);
+}
+/*
+Components:
+- ion-input
+- ion-searchbar
+- ion-textarea
+*/
+@utility ion-placeholder-font-style-* {
+    --placeholder-font-style: --value(integer); /*TODO*/
+}
+/*
+Components:
+- ion-input
+- ion-searchbar
+- ion-textarea
+*/
+@utility ion-placeholder-font-weight-* {
+    --placeholder-font-weight: --value(integer); /*TODO*/
+}
+/*
+Components:
+- ion-input
+- ion-select
+- ion-textarea
+*/
+@utility ion-highlight-color-focused-* {
+    --highlight-color-focused: --value(--color-*);
+}
+/*
+Components:
+- ion-input
+- ion-select
+- ion-textarea
+*/
+@utility ion-highlight-color-invalid-* {
+    --highlight-color-invalid: --value(--color-*);
+}
+/*
+Components:
+- ion-input
+- ion-select
+- ion-textarea
+*/
+@utility ion-highlight-h-* {
+    --highlight-height: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-input
+- ion-select
+- ion-textarea
+*/
+@utility ion-highlight-color-valid-* {
+    --highlight-color-valid: --value(--color-*);
+}
+/*
+Components:
+- ion-item
+- ion-item-divider
+*/
+@utility ion-inner-pb-* {
+    --inner-padding-bottom: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-item
+- ion-item-divider
+*/
+@utility ion-inner-pt-* {
+    --inner-padding-top: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-item
+- ion-item-divider
+*/
+@utility ion-inner-ps-* {
+    --inner-padding-start: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-item
+- ion-item-divider
+*/
+@utility ion-inner-pe-* {
+    --inner-padding-end: calc(var(--spacing) * --value(number));
+}
+/*
+Components:
+- ion-item
+- ion-list-header
+*/
+@utility ion-inner-border-* {
+    --inner-border-width: --value(number)px;
+}
+/*
+Components:
+- ion-radio
+- ion-segment-button
+*/
+@utility ion-text-checked-* {
+    --color-checked: --value(--color-*);
+}

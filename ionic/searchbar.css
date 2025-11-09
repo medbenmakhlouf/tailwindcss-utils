@@ -1,0 +1,13 @@
+/*
+Components:
+- ion-searchbar
+*/
+@utility ion-searchbar-icon-color-* {
+    --icon-color: --value(--color-*);
+}
+@utility ion-searchbar-clear-btn-color-* {
+    --clear-button-color: --value(--color-*);
+}
+@utility ion-searchbar-cancel-btn-color-* {
+    --cancel-button-color: --value(--color-*);
+}

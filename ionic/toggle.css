@@ -1,0 +1,37 @@
+/*
+Components:
+- ion-toggle
+*/
+@utility ion-toggle-handle-w-* {
+    --handle-width: calc(var(--spacing) * --value(number));
+}
+@utility ion-toggle-handle-shadow-* {
+    --handle-box-shadow: --value(integer); /*TODO*/
+}
+@utility ion-toggle-handle-h-* {
+    --handle-height: calc(var(--spacing) * --value(number));
+}
+@utility ion-toggle-track-bg-* {
+    --track-background: --value(--color-*);
+}
+@utility ion-toggle-track-bg-checked-* {
+    --track-background-checked: --value(--color-*);
+}
+@utility ion-toggle-handle-spacing-* {
+    --handle-spacing: --value(integer)px;
+}
+@utility ion-toggle-handle-max-h-* {
+    --handle-max-height: calc(var(--spacing) * --value(number));
+}
+@utility ion-toggle-handle-bg-* {
+    --handle-background: --value(--color-*);
+}
+@utility ion-toggle-handle-bg-checked-* {
+    --handle-background-checked: --value(--color-*);
+}
+@utility ion-toggle-handle-rounded-* {
+    --handle-border-radius: --value(integer)px;
+}
+@utility ion-toggle-handle-ease-* {
+    --handle-transition: --value(integer); /*TODO*/
+}

@@ -1,0 +1,13 @@
+/*
+Components:
+- ion-toast
+*/
+@utility ion-toast-white-space-* {
+    --white-space: --value(integer); /*TODO*/
+}
+@utility ion-toast-end-* {
+    --end: --value(integer)px; /*TODO*/
+}
+@utility ion-toast-start-* {
+    --start: --value(integer)px; /*TODO*/
+}

@@ -1,0 +1,16 @@
+/*
+Components:
+- ion-datetime
+*/
+@utility ion-datetime-bg-wheel-fade-rgb-* {
+    --wheel-fade-background-rgb: --value(integer); /*TODO*/
+}
+@utility ion-datetime-title-color-* {
+    --title-color: --value(--color-*);
+}
+@utility ion-datetime-bg-wheel-highlight-* {
+    --wheel-highlight-background: --value(--color-*);
+}
+@utility ion-datetime-wheel-highlight-rounded-* {
+    --wheel-highlight-border-radius: --value(integer)px; /*TODO*/
+}

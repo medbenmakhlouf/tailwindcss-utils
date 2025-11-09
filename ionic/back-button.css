@@ -1,0 +1,34 @@
+/*
+Components:
+- ion-back-button
+*/
+@utility ion-back-button-icon-me-* {
+    --icon-margin-end: calc(var(--spacing) * --value(number));
+}
+@utility ion-back-button-icon-ms-* {
+    --icon-margin-start: calc(var(--spacing) * --value(number));
+}
+@utility ion-back-button-icon-mt-* {
+    --icon-margin-top: calc(var(--spacing) * --value(number));
+}
+@utility ion-back-button-icon-mb-* {
+    --icon-margin-bottom: calc(var(--spacing) * --value(number));
+}
+@utility ion-back-button-icon-pt-* {
+    --icon-padding-top: calc(var(--spacing) * --value(number));
+}
+@utility ion-back-button-icon-pb-* {
+    --icon-padding-bottom: calc(var(--spacing) * --value(number));
+}
+@utility ion-back-button-icon-pe-* {
+    --icon-padding-end: calc(var(--spacing) * --value(number));
+}
+@utility ion-back-button-icon-ps-* {
+    --icon-padding-start: calc(var(--spacing) * --value(number));
+}
+@utility ion-back-button-icon-text-* {
+    --icon-font-size: --value(integer)px; /*TODO*/
+}
+@utility ion-back-button-icon-text-weight-* {
+    --icon-font-weight: --value(integer); /*TODO*/
+}

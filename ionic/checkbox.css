@@ -1,0 +1,26 @@
+/*
+Components:
+- ion-checkbox
+*/
+@utility ion-checkbox-checkmark-w-* {
+    --checkmark-width: calc(var(--spacing) * --value(number));
+}
+@utility ion-checkbox-checkmark-color-* {
+    --checkmark-color: --value(--color-*);
+}
+@utility ion-checkbox-bg-checked-* {
+    --checkbox-background-checked: --value(--color-*);
+}
+@utility ion-checkbox-bg-* {
+    --checkbox-background: --value(--color-*);
+}
+@utility ion-checkbox-border-checked-* {
+    --border-color-checked: --value(--color-*);
+}
+@utility ion-checkbox-w-* {
+    --checkbox-width: calc(var(--spacing) * --value(number));
+    --checkbox-width: --value(--checkbox-width-*, [percentage]);
+}
+@utility ion-checkbox-align-* {
+    --checkbox-text-align: --value('start', 'end', 'left', 'right', 'center', 'justify', 'match-parent');
+}

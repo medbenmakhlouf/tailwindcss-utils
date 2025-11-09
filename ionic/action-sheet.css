@@ -1,0 +1,46 @@
+/*
+Components:
+- ion-action-sheet
+*/
+@utility ion-action-sheet-bg-selected-opacity-* {
+    --button-background-selected-opacity: --value(number); /*TODO*/
+}
+@utility ion-action-sheet-text-disabled-* {
+    --button-color-disabled: --value(--color-*);
+}
+@utility ion-action-sheet-text-focused-* {
+    --button-color-focused: --value(--color-*);
+}
+@utility ion-action-sheet-text-hover-* {
+    --button-color-hover: --value(--color-*);
+}
+@utility ion-action-sheet-text-selected-* {
+    --button-color-selected: --value(--color-*);
+}
+@utility ion-action-sheet-bg-selected-* {
+    --button-background-selected: --value(--color-*);
+}
+@utility ion-action-sheet-bg-hover-opacity-* {
+    --button-background-hover-opacity: --value(number); /*TODO*/
+}
+@utility ion-action-sheet-bg-* {
+    --button-background: --value(--color-*);
+}
+@utility ion-action-sheet-bg-activated-* {
+    --button-background-activated: --value(--color-*);
+}
+@utility ion-action-sheet-bg-activated-opacity-* {
+    --button-background-activated-opacity: --value(number); /*TODO*/
+}
+@utility ion-action-sheet-bg-focused-* {
+    --button-background-focused: --value(--color-*);
+}
+@utility ion-action-sheet-bg-focused-opacity-* {
+    --button-background-focused-opacity: --value(number); /*TODO*/
+}
+@utility ion-action-sheet-text-activated-* {
+    --button-color-activated: --value(--color-*);
+}
+@utility ion-action-sheet-bg-hover-* {
+    --button-background-hover: --value(--color-*);
+}

@@ -1,0 +1,34 @@
+/*
+Components:
+- ion-range
+*/
+@utility ion-range-bar-bg-active-* {
+    --bar-background-active: --value(--color-*);
+}
+@utility ion-range-knob-bg-* {
+    --knob-background: --value(--color-*);
+}
+@utility ion-range-pin-color-* {
+    --pin-color: --value(--color-*);
+}
+@utility ion-range-pin-bg-* {
+    --pin-background: --value(--color-*);
+}
+@utility ion-range-bar-bg-* {
+    --bar-background: --value(--color-*);
+}
+@utility ion-range-knob-size-* {
+    --knob-size: --value(integer)px; /*TODO*/
+}
+@utility ion-range-knob-shadow-* {
+    --knob-box-shadow: --value(integer); /*TODO*/
+}
+@utility ion-range-knob-rounded-* {
+    --knob-border-radius: --value(integer)px; /*TODO*/
+}
+@utility ion-range-bar-rounded-* {
+    --bar-border-radius: --value(integer)px; /*TODO*/
+}
+@utility ion-range-bar-h-* {
+    --bar-height: calc(var(--spacing) * --value(number));
+}

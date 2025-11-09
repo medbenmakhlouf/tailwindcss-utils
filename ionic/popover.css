@@ -1,0 +1,10 @@
+/*
+Components:
+- ion-popover
+*/
+@utility ion-popover-offset-x-* {
+    --offset-x: calc(var(--spacing) * --value(number));
+}
+@utility ion-popover-offset-y-* {
+    --offset-y: calc(var(--spacing) * --value(number));
+}

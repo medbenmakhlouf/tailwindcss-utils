@@ -1,0 +1,22 @@
+/*
+Components:
+- ion-segment-button
+*/
+@utility ion-segment-button-indicator-shadow-* {
+    --indicator-box-shadow: --value(integer);
+}
+@utility ion-segment-button-indicator-h-* {
+    --indicator-height: calc(var(--spacing) * --value(number));
+}
+@utility ion-segment-button-indicator-transform-* {
+    --indicator-transform: --value(integer); /*TODO*/
+}
+@utility ion-segment-button-indicator-ease-* {
+    --indicator-transition: --value(integer); /*TODO*/
+}
+@utility ion-segment-button-bg-checked-* {
+    --background-checked: --value(--color-*);
+}
+@utility ion-segment-button-indicator-color-* {
+    --indicator-color: --value(--color-*);
+}

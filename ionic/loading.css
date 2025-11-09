@@ -1,0 +1,7 @@
+/*
+Components:
+- ion-loading
+*/
+@utility ion-loading-spinner-color-* {
+    --spinner-color: --value(--color-*);
+}

@@ -1,0 +1,13 @@
+/*
+Components:
+- ion-split-pane
+*/
+@utility ion-split-pane-max-w-* {
+    --side-max-width: calc(var(--spacing) * --value(number));
+}
+@utility ion-split-pane-w-* {
+    --side-width: calc(var(--spacing) * --value(number));
+}
+@utility ion-split-pane-min-w-* {
+    --side-min-width: calc(var(--spacing) * --value(number));
+}

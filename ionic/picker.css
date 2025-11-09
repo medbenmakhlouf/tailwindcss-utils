@@ -1,0 +1,13 @@
+/*
+Components:
+- ion-picker
+*/
+@utility ion-picker-bg-fade-rgb-* {
+    --fade-background-rgb: --value(integer); /*TODO*/
+}
+@utility ion-picker-bg-highlight-* {
+    --highlight-background: --value(--color-*);
+}
+@utility ion-picker-highlight-rounded-* {
+    --highlight-border-radius: --value(integer)px;
+}

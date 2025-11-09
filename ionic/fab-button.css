@@ -1,0 +1,7 @@
+/*
+Components:
+- ion-fab-button
+*/
+@utility ion-fab-button-text-close-icon-size-* {
+    --close-icon-font-size: --value(integer)px; /*TODO*/
+}

@@ -1,0 +1,40 @@
+/*
+Components:
+- ion-grid
+*/
+@utility ion-grid-p-sm-* {
+    --ion-grid-padding-sm: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-p-lg-* {
+    --ion-grid-padding-lg: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-p-md-* {
+    --ion-grid-padding-md: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-p-xl-* {
+    --ion-grid-padding-xl: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-p-xs-* {
+    --ion-grid-padding-xs: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-w-* {
+    --ion-grid-width: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-w-lg-* {
+    --ion-grid-width-lg: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-w-md-* {
+    --ion-grid-width-md: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-w-sm-* {
+    --ion-grid-width-sm: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-w-xl-* {
+    --ion-grid-width-xl: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-w-xs-* {
+    --ion-grid-width-xs: calc(var(--spacing) * --value(number));
+}
+@utility ion-grid-p-* {
+    --ion-grid-padding: calc(var(--spacing) * --value(number));
+}

@@ -1,0 +1,7 @@
+/*
+Components:
+- ion-tab-button
+*/
+@utility ion-tab-button-text-selected-* {
+    --color-selected: --value(--color-*);
+}

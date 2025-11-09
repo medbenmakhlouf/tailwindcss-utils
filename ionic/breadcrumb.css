@@ -1,0 +1,7 @@
+/*
+Components:
+- ion-breadcrumb
+*/
+@utility ion-breadcrumb-text-active-* {
+    --color-active: --value(--color-*);
+}

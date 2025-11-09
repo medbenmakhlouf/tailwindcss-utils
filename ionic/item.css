@@ -1,0 +1,16 @@
+/*
+Components:
+- ion-item
+*/
+@utility ion-item-shadow-inner-* {
+    --inner-box-shadow: --value(integer); /*TODO*/
+}
+@utility ion-item-detail-icon-color-* {
+    --detail-icon-color: --value(--color-*);
+}
+@utility ion-item-detail-icon-size-* {
+    --detail-icon-font-size: --value(integer)px; /*TODO*/
+}
+@utility ion-item-detail-icon-opacity-* {
+    --detail-icon-opacity: --value(number); /*TODO*/
+}

@@ -1,0 +1,25 @@
+/*
+Components:
+- ion-col
+*/
+@utility ion-col-p-* {
+    --ion-grid-column-padding: calc(var(--spacing) * --value(number));
+}
+@utility ion-col-p-lg-* {
+    --ion-grid-column-padding-lg: calc(var(--spacing) * --value(number));
+}
+@utility ion-col-p-md-* {
+    --ion-grid-column-padding-md: calc(var(--spacing) * --value(number));
+}
+@utility ion-col-p-sm-* {
+    --ion-grid-column-padding-sm: calc(var(--spacing) * --value(number));
+}
+@utility ion-col-p-xl-* {
+    --ion-grid-column-padding-xl: calc(var(--spacing) * --value(number));
+}
+@utility ion-col-p-xs-* {
+    --ion-grid-column-padding-xs: calc(var(--spacing) * --value(number));
+}
+@utility ion-col-cols-* {
+    --ion-grid-columns: calc(var(--spacing) * --value(number));
+}

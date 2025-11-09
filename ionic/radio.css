@@ -1,0 +1,7 @@
+/*
+Components:
+- ion-radio
+*/
+@utility ion-radio-inner-rounded-* {
+    --inner-border-radius: --value(integer)px;
+}

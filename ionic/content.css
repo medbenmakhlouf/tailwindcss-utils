@@ -1,0 +1,13 @@
+/*
+Components:
+- ion-content
+*/
+@utility ion-content-offset-t-* {
+    --offset-top: calc(var(--spacing) * --value(number));
+}
+@utility ion-content-keyboard-offset-* {
+    --keyboard-offset: calc(var(--spacing) * --value(number));
+}
+@utility ion-content-offset-b-* {
+    --offset-bottom: calc(var(--spacing) * --value(number));
+}
