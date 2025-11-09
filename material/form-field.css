@@ -1,0 +1,351 @@
+/* Base Tokens */
+@utility mff-filled-active-indicator-height-* {
+    --mat-form-field-filled-active-indicator-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-filled-focus-active-indicator-height-* {
+    --mat-form-field-filled-focus-active-indicator-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-filled-container-shape-* {
+    --mat-form-field-filled-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-outlined-outline-width-* {
+    --mat-form-field-outlined-outline-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-outlined-focus-outline-width-* {
+    --mat-form-field-outlined-focus-outline-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-outlined-container-shape-* {
+    --mat-form-field-outlined-container-shape: calc(var(--spacing) * --value(number));
+}
+
+/* Color Tokens */
+@utility mff-disabled-input-text-placeholder-color-* {
+    --mat-form-field-disabled-input-text-placeholder-color: --value(--color-*);
+}
+
+@utility mff-disabled-leading-icon-color-* {
+    --mat-form-field-disabled-leading-icon-color: --value(--color-*);
+}
+
+@utility mff-disabled-select-arrow-color-* {
+    --mat-form-field-disabled-select-arrow-color: --value(--color-*);
+}
+
+@utility mff-disabled-trailing-icon-color-* {
+    --mat-form-field-disabled-trailing-icon-color: --value(--color-*);
+}
+
+@utility mff-enabled-select-arrow-color-* {
+    --mat-form-field-enabled-select-arrow-color: --value(--color-*);
+}
+
+@utility mff-error-focus-trailing-icon-color-* {
+    --mat-form-field-error-focus-trailing-icon-color: --value(--color-*);
+}
+
+@utility mff-error-hover-trailing-icon-color-* {
+    --mat-form-field-error-hover-trailing-icon-color: --value(--color-*);
+}
+
+@utility mff-error-text-color-* {
+    --mat-form-field-error-text-color: --value(--color-*);
+}
+
+@utility mff-error-trailing-icon-color-* {
+    --mat-form-field-error-trailing-icon-color: --value(--color-*);
+}
+
+@utility mff-filled-active-indicator-color-* {
+    --mat-form-field-filled-active-indicator-color: --value(--color-*);
+}
+
+@utility mff-filled-caret-color-* {
+    --mat-form-field-filled-caret-color: --value(--color-*);
+}
+
+@utility mff-filled-container-color-* {
+    --mat-form-field-filled-container-color: --value(--color-*);
+}
+
+@utility mff-filled-disabled-active-indicator-color-* {
+    --mat-form-field-filled-disabled-active-indicator-color: --value(--color-*);
+}
+
+@utility mff-filled-disabled-container-color-* {
+    --mat-form-field-filled-disabled-container-color: --value(--color-*);
+}
+
+@utility mff-filled-disabled-input-text-color-* {
+    --mat-form-field-filled-disabled-input-text-color: --value(--color-*);
+}
+
+@utility mff-filled-disabled-label-text-color-* {
+    --mat-form-field-filled-disabled-label-text-color: --value(--color-*);
+}
+
+@utility mff-filled-error-active-indicator-color-* {
+    --mat-form-field-filled-error-active-indicator-color: --value(--color-*);
+}
+
+@utility mff-filled-error-caret-color-* {
+    --mat-form-field-filled-error-caret-color: --value(--color-*);
+}
+
+@utility mff-filled-error-focus-active-indicator-color-* {
+    --mat-form-field-filled-error-focus-active-indicator-color: --value(--color-*);
+}
+
+@utility mff-filled-error-focus-label-text-color-* {
+    --mat-form-field-filled-error-focus-label-text-color: --value(--color-*);
+}
+
+@utility mff-filled-error-hover-active-indicator-color-* {
+    --mat-form-field-filled-error-hover-active-indicator-color: --value(--color-*);
+}
+
+@utility mff-filled-error-hover-label-text-color-* {
+    --mat-form-field-filled-error-hover-label-text-color: --value(--color-*);
+}
+
+@utility mff-filled-error-label-text-color-* {
+    --mat-form-field-filled-error-label-text-color: --value(--color-*);
+}
+
+@utility mff-filled-focus-active-indicator-color-* {
+    --mat-form-field-filled-focus-active-indicator-color: --value(--color-*);
+}
+
+@utility mff-filled-focus-label-text-color-* {
+    --mat-form-field-filled-focus-label-text-color: --value(--color-*);
+}
+
+@utility mff-filled-hover-active-indicator-color-* {
+    --mat-form-field-filled-hover-active-indicator-color: --value(--color-*);
+}
+
+@utility mff-filled-hover-label-text-color-* {
+    --mat-form-field-filled-hover-label-text-color: --value(--color-*);
+}
+
+@utility mff-filled-input-text-color-* {
+    --mat-form-field-filled-input-text-color: --value(--color-*);
+}
+
+@utility mff-filled-input-text-placeholder-color-* {
+    --mat-form-field-filled-input-text-placeholder-color: --value(--color-*);
+}
+
+@utility mff-filled-label-text-color-* {
+    --mat-form-field-filled-label-text-color: --value(--color-*);
+}
+
+@utility mff-focus-select-arrow-color-* {
+    --mat-form-field-focus-select-arrow-color: --value(--color-*);
+}
+
+@utility mff-focus-state-layer-opacity-* {
+    --mat-form-field-focus-state-layer-opacity: --value(--color-*);
+}
+
+@utility mff-hover-state-layer-opacity-* {
+    --mat-form-field-hover-state-layer-opacity: --value(--color-*);
+}
+
+@utility mff-leading-icon-color-* {
+    --mat-form-field-leading-icon-color: --value(--color-*);
+}
+
+@utility mff-outlined-caret-color-* {
+    --mat-form-field-outlined-caret-color: --value(--color-*);
+}
+
+@utility mff-outlined-disabled-input-text-color-* {
+    --mat-form-field-outlined-disabled-input-text-color: --value(--color-*);
+}
+
+@utility mff-outlined-disabled-label-text-color-* {
+    --mat-form-field-outlined-disabled-label-text-color: --value(--color-*);
+}
+
+@utility mff-outlined-disabled-outline-color-* {
+    --mat-form-field-outlined-disabled-outline-color: --value(--color-*);
+}
+
+@utility mff-outlined-error-caret-color-* {
+    --mat-form-field-outlined-error-caret-color: --value(--color-*);
+}
+
+@utility mff-outlined-error-focus-label-text-color-* {
+    --mat-form-field-outlined-error-focus-label-text-color: --value(--color-*);
+}
+
+@utility mff-outlined-error-focus-outline-color-* {
+    --mat-form-field-outlined-error-focus-outline-color: --value(--color-*);
+}
+
+@utility mff-outlined-error-hover-label-text-color-* {
+    --mat-form-field-outlined-error-hover-label-text-color: --value(--color-*);
+}
+
+@utility mff-outlined-error-hover-outline-color-* {
+    --mat-form-field-outlined-error-hover-outline-color: --value(--color-*);
+}
+
+@utility mff-outlined-error-label-text-color-* {
+    --mat-form-field-outlined-error-label-text-color: --value(--color-*);
+}
+
+@utility mff-outlined-error-outline-color-* {
+    --mat-form-field-outlined-error-outline-color: --value(--color-*);
+}
+
+@utility mff-outlined-focus-label-text-color-* {
+    --mat-form-field-outlined-focus-label-text-color: --value(--color-*);
+}
+
+@utility mff-outlined-focus-outline-color-* {
+    --mat-form-field-outlined-focus-outline-color: --value(--color-*);
+}
+
+@utility mff-outlined-hover-label-text-color-* {
+    --mat-form-field-outlined-hover-label-text-color: --value(--color-*);
+}
+
+@utility mff-outlined-hover-outline-color-* {
+    --mat-form-field-outlined-hover-outline-color: --value(--color-*);
+}
+
+@utility mff-outlined-input-text-color-* {
+    --mat-form-field-outlined-input-text-color: --value(--color-*);
+}
+
+@utility mff-outlined-input-text-placeholder-color-* {
+    --mat-form-field-outlined-input-text-placeholder-color: --value(--color-*);
+}
+
+@utility mff-outlined-label-text-color-* {
+    --mat-form-field-outlined-label-text-color: --value(--color-*);
+}
+
+@utility mff-outlined-outline-color-* {
+    --mat-form-field-outlined-outline-color: --value(--color-*);
+}
+
+@utility mff-select-disabled-option-text-color-* {
+    --mat-form-field-select-disabled-option-text-color: --value(--color-*);
+}
+
+@utility mff-select-option-text-color-* {
+    --mat-form-field-select-option-text-color: --value(--color-*);
+}
+
+@utility mff-state-layer-color-* {
+    --mat-form-field-state-layer-color: --value(--color-*);
+}
+
+@utility mff-trailing-icon-color-* {
+    --mat-form-field-trailing-icon-color: --value(--color-*);
+}
+
+/* Typography Tokens */
+@utility mff-container-text-font-* {
+    --mat-form-field-container-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mff-container-text-leading-* {
+    --mat-form-field-container-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-container-text-size-* {
+    --mat-form-field-container-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-container-text-tracking-* {
+    --mat-form-field-container-text-tracking: --value(number, [number])rem;
+}
+
+@utility mff-container-text-weight-* {
+    --mat-form-field-container-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mff-subscript-text-font-* {
+    --mat-form-field-subscript-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mff-subscript-text-leading-* {
+    --mat-form-field-subscript-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-subscript-text-size-* {
+    --mat-form-field-subscript-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-subscript-text-tracking-* {
+    --mat-form-field-subscript-text-tracking: --value(number, [number])rem;
+}
+
+@utility mff-subscript-text-weight-* {
+    --mat-form-field-subscript-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mff-outlined-label-text-font-* {
+    --mat-form-field-outlined-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mff-outlined-label-text-size-* {
+    --mat-form-field-outlined-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-outlined-label-text-tracking-* {
+    --mat-form-field-outlined-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mff-outlined-label-text-weight-* {
+    --mat-form-field-outlined-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mff-filled-label-text-font-* {
+    --mat-form-field-filled-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mff-filled-label-text-size-* {
+    --mat-form-field-filled-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-filled-label-text-tracking-* {
+    --mat-form-field-filled-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mff-filled-label-text-weight-* {
+    --mat-form-field-filled-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mff-outlined-label-text-populated-size-* {
+    --mat-form-field-outlined-label-text-populated-size: calc(var(--spacing) * --value(number));
+}
+
+/* Density Tokens */
+@utility mff-container-height-* {
+    --mat-form-field-container-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-filled-label-display-* {
+    --mat-form-field-filled-label-display: --value('none', 'block', 'inline', 'inline-block', 'flex', 'inline-flex', 'grid', 'inline-grid', 'run-in', 'table', 'table-row', 'table-cell', 'list-item', 'inherit', 'initial', 'unset');
+}
+
+@utility mff-container-vertical-padding-* {
+    --mat-form-field-container-vertical-padding: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-filled-with-label-container-padding-top-* {
+    --mat-form-field-filled-with-label-container-padding-top: calc(var(--spacing) * --value(number));
+}
+
+@utility mff-filled-with-label-container-padding-bottom-* {
+    --mat-form-field-filled-with-label-container-padding-bottom: calc(var(--spacing) * --value(number));
+}
