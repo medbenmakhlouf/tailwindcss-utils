@@ -19,19 +19,19 @@
     "url": "https://github.com/medbenmakhlouf/tailwind-ionic.git"
   },
   "devDependencies": {
+    "@angular/build": "^20.3.9",
+    "@angular/cli": "^20.3.9",
     "@angular/common": "^20.3.0",
     "@angular/compiler": "^20.3.0",
+    "@angular/compiler-cli": "^20.3.0",
     "@angular/core": "^20.3.0",
     "@angular/forms": "^20.3.0",
     "@angular/platform-browser": "^20.3.0",
     "@angular/router": "^20.3.0",
-    "@angular/build": "^20.3.9",
-    "@angular/cli": "^20.3.9",
-    "@angular/compiler-cli": "^20.3.0",
-    "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
     "@tailwindcss/cli": "^4.1.0",
+    "rxjs": "~7.8.0",
     "tailwindcss": "^4.1.0",
+    "tslib": "^2.3.0",
     "typescript": "~5.9.2"
   },
   "prettier": {
@@ -63,5 +63,10 @@
     "css",
     "utilities"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@angular/cdk": "^20.2.12",
+    "@angular/forms": "^20.0.0 || ^21.0.0",
+    "@angular/material": "^20.2.12"
+  }
 }
