@@ -1,0 +1,13 @@
+/* Base Tokens */
+@utility ma-container-shape-* {
+    --mat-autocomplete-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility ma-container-elevation-shadow-* {
+    --mat-autocomplete-container-elevation-shadow: calc(var(--spacing) * --value(number));
+}
+
+/* Color Tokens */
+@utility ma-background-color-* {
+    --mat-autocomplete-background-color: --value(--color-*);
+}
