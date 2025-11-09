@@ -1,0 +1,143 @@
+/* Base Tokens */
+@utility mbt-focus-state-layer-opacity-* {
+    --mat-button-toggle-focus-state-layer-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mbt-hover-state-layer-opacity-* {
+    --mat-button-toggle-hover-state-layer-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mbt-shape-* {
+    --mat-button-toggle-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mbt-legacy-shape-* {
+    --mat-button-toggle-legacy-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mbt-legacy-selected-state-text-color-* {
+    --mat-button-toggle-legacy-selected-state-text-color: calc(var(--spacing) * --value(number));
+}
+
+@utility mbt-legacy-focus-state-layer-opacity-* {
+    --mat-button-toggle-legacy-focus-state-layer-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mbt-legacy-height-* {
+    --mat-button-toggle-legacy-height: calc(var(--spacing) * --value(number));
+}
+
+/* Color Tokens */
+@utility mbt-background-color-* {
+    --mat-button-toggle-background-color: --value(--color-*);
+}
+
+@utility mbt-disabled-selected-state-background-color-* {
+    --mat-button-toggle-disabled-selected-state-background-color: --value(--color-*);
+}
+
+@utility mbt-disabled-selected-state-text-color-* {
+    --mat-button-toggle-disabled-selected-state-text-color: --value(--color-*);
+}
+
+@utility mbt-disabled-state-background-color-* {
+    --mat-button-toggle-disabled-state-background-color: --value(--color-*);
+}
+
+@utility mbt-disabled-state-text-color-* {
+    --mat-button-toggle-disabled-state-text-color: --value(--color-*);
+}
+
+@utility mbt-divider-color-* {
+    --mat-button-toggle-divider-color: --value(--color-*);
+}
+
+@utility mbt-selected-state-background-color-* {
+    --mat-button-toggle-selected-state-background-color: --value(--color-*);
+}
+
+@utility mbt-selected-state-text-color-* {
+    --mat-button-toggle-selected-state-text-color: --value(--color-*);
+}
+
+@utility mbt-state-layer-color-* {
+    --mat-button-toggle-state-layer-color: --value(--color-*);
+}
+
+@utility mbt-text-color-* {
+    --mat-button-toggle-text-color: --value(--color-*);
+}
+
+@utility mbt-legacy-disabled-selected-state-background-color-* {
+    --mat-button-toggle-legacy-disabled-selected-state-background-color: --value(--color-*);
+}
+
+@utility mbt-legacy-disabled-state-background-color-* {
+    --mat-button-toggle-legacy-disabled-state-background-color: --value(--color-*);
+}
+
+@utility mbt-legacy-disabled-state-text-color-* {
+    --mat-button-toggle-legacy-disabled-state-text-color: --value(--color-*);
+}
+
+@utility mbt-legacy-selected-state-background-color-* {
+    --mat-button-toggle-legacy-selected-state-background-color: --value(--color-*);
+}
+
+@utility mbt-legacy-selected-state-text-color-* {
+    --mat-button-toggle-legacy-selected-state-text-color: --value(--color-*);
+}
+
+@utility mbt-legacy-state-layer-color-* {
+    --mat-button-toggle-legacy-state-layer-color: --value(--color-*);
+}
+
+@utility mbt-legacy-text-color-* {
+    --mat-button-toggle-legacy-text-color: --value(--color-*);
+}
+
+/* Typography Tokens */
+@utility mbt-label-text-font-* {
+    --mat-button-toggle-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mbt-label-text-line-height-* {
+    --mat-button-toggle-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mbt-label-text-size-* {
+    --mat-button-toggle-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mbt-label-text-tracking-* {
+    --mat-button-toggle-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mbt-label-text-weight-* {
+    --mat-button-toggle-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mbt-legacy-label-text-font-* {
+    --mat-button-toggle-legacy-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mbt-legacy-label-text-line-height-* {
+    --mat-button-toggle-legacy-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mbt-legacy-label-text-size-* {
+    --mat-button-toggle-legacy-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mbt-legacy-label-text-tracking-* {
+    --mat-button-toggle-legacy-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mbt-legacy-label-text-weight-* {
+    --mat-button-toggle-legacy-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+/* Density Tokens */
+@utility mbt-height-* {
+    --mat-button-toggle-height: calc(var(--spacing) * --value(number));
+}
