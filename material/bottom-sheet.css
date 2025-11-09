@@ -1,0 +1,34 @@
+/* Base Tokens */
+@utility mbs-container-shape-* {
+    --mat-bottom-sheet-container-shape: calc(var(--spacing) * --value(number));
+}
+
+/* Color Tokens */
+@utility mbs-container-text-color-* {
+    --mat-bottom-sheet-container-text-color: --value(--color-*);
+}
+
+@utility mbs-container-background-color-* {
+    --mat-bottom-sheet-container-background-color: --value(--color-*);
+}
+
+/* Typography Tokens */
+@utility mbs-container-text-font-* {
+    --mat-bottom-sheet-container-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mbs-container-text-line-height-* {
+    --mat-bottom-sheet-container-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mbs-container-text-size-* {
+    --mat-bottom-sheet-container-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mbs-container-text-tracking-* {
+    --mat-bottom-sheet-container-text-tracking: --value(number, [number])rem;
+}
+
+@utility mbs-container-text-weight-* {
+    --mat-bottom-sheet-container-text-weight: --value(--font-weight-*, integer, [integer]);
+}
