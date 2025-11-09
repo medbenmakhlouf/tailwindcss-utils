@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:ionic": "npx @tailwindcss/cli -i demo-ionic.css -o ./dist/ionic-utils.css --minify",
-    "build:material": "npx @tailwindcss/cli -i material.css -o ./dist/material-utils.css --minify",
+    "build:material": "npx @tailwindcss/cli -i demo-material.css -o ./dist/material-utils.css --minify",
     "publish:public": "npm publish --access public",
     "publish:alpha": "npm version prerelease --preid=alpha && npm publish --tag alpha --access public",
     "publish:beta": "npm version prerelease --preid=beta && npm publish --tag beta --access public",
@@ -53,11 +53,12 @@
   },
   "files": [
     "dist",
-    "ionic/index.css"
+    "ionic/index.css",
+    "material/index.css"
   ],
   "exports": {
     "./dist": "./dist/ionic-utils.css",
-    "./index.css": "./index.css"
+    "./tailwind-ionic.css": "./ionic/index.css"
   },
   "keywords": [
     "tailwind",
