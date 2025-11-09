@@ -5,6 +5,8 @@
 // Learn more about theming and how to use it for your application's
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
+@import 'tailwindcss';
+@import '../../material.css';
 
 html {
   @include mat.theme((
