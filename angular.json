@@ -20,6 +20,11 @@
             "browser": "demo/src/main.ts",
             "tsConfig": "demo/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            "stylePreprocessorOptions": {
+              "sass": {
+                "silenceDeprecations": ["import"]
+              }
+            },
             "assets": [
               {
                 "glob": "**/*",
