@@ -1,0 +1,94 @@
+/* Base Type Utilities */
+@utility mdg-actions-alignment-* {
+    --mat-dialog-actions-alignment: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-actions-padding-* {
+    --mat-dialog-actions-padding: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-container-elevation-shadow-* {
+    --mat-dialog-container-elevation-shadow: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-container-max-width-* {
+    --mat-dialog-container-max-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-container-min-width-* {
+    --mat-dialog-container-min-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-container-shape-* {
+    --mat-dialog-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-container-small-max-width-* {
+    --mat-dialog-container-small-max-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-content-padding-* {
+    --mat-dialog-content-padding: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-headline-padding-* {
+    --mat-dialog-headline-padding: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-with-actions-content-padding-* {
+    --mat-dialog-with-actions-content-padding: calc(var(--spacing) * --value(number));
+}
+
+/* Color Type Utilities */
+@utility mdg-container-color-* {
+    --mat-dialog-container-color: --value(--color-*);
+}
+
+@utility mdg-subhead-color-* {
+    --mat-dialog-subhead-color: --value(--color-*);
+}
+
+@utility mdg-supporting-text-color-* {
+    --mat-dialog-supporting-text-color: --value(--color-*);
+}
+
+/* Typography Type Utilities */
+@utility mdg-subhead-leading-* {
+    --mat-dialog-subhead-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-subhead-size-* {
+    --mat-dialog-subhead-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-subhead-tracking-* {
+    --mat-dialog-subhead-tracking: --value(number, [number])rem;
+}
+
+@utility mdg-subhead-font-* {
+    --mat-dialog-subhead-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mdg-subhead-weight-* {
+    --mat-dialog-subhead-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mdg-supporting-text-leading-* {
+    --mat-dialog-supporting-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-supporting-text-size-* {
+    --mat-dialog-supporting-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mdg-supporting-text-tracking-* {
+    --mat-dialog-supporting-text-tracking: --value(number, [number])rem;
+}
+
+@utility mdg-supporting-text-font-* {
+    --mat-dialog-supporting-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mdg-supporting-font-* {
+    --mat-dialog-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
+}
