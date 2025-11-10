@@ -1,0 +1,3 @@
+@utility mr-color-* {
+    --mat-ripple-color: --value(--color-*);
+}
