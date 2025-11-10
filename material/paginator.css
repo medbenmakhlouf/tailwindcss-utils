@@ -1,0 +1,64 @@
+/* Base Type Utilities */
+@utility mp-page-size-select-width-* {
+    --mat-paginator-page-size-select-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mp-page-size-select-touch-target-height-* {
+    --mat-paginator-page-size-select-touch-target-height: calc(var(--spacing) * --value(number));
+}
+/* Color Type Utilities */
+@utility mp-container-text-color-* {
+    --mat-paginator-container-text-color: --value(--color-*);
+}
+
+@utility mp-container-background-color-* {
+    --mat-paginator-container-background-color: --value(--color-*);
+}
+
+@utility mp-disabled-icon-color-* {
+    --mat-paginator-disabled-icon-color: --value(--color-*);
+}
+
+@utility mp-enabled-icon-color-* {
+    --mat-paginator-enabled-icon-color: --value(--color-*);
+}
+/* Typography Type Utilities */
+@utility mp-container-text-leading-* {
+    --mat-paginator-container-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mp-container-text-size-* {
+    --mat-paginator-container-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mp-container-text-tracking-* {
+    --mat-paginator-container-text-tracking: --value(number, [number])rem;
+}
+
+@utility mp-container-text-font-* {
+    --mat-paginator-container-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mp-container-text-weight-* {
+    --mat-paginator-container-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mp-select-trigger-text-size-* {
+    --mat-paginator-select-trigger-text-size: calc(var(--spacing) * --value(number));
+}
+/* Density Type Utilities */
+@utility mp-container-size-* {
+    --mat-paginator-container-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mp-form-field-container-height-* {
+    --mat-paginator-form-field-container-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mp-form-field-container-vertical-padding-* {
+    --mat-paginator-form-field-container-vertical-padding: calc(var(--spacing) * --value(number));
+}
+
+@utility mp-touch-target-display-* {
+    --mat-paginator-touch-target-display: calc(var(--spacing) * --value(number));
+}
