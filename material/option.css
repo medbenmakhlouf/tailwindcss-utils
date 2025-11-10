@@ -1,0 +1,38 @@
+/* Color Type Utilities */
+@utility mo-focus-state-layer-color-* {
+    --mat-option-focus-state-layer-color: --value(--color-*);
+}
+
+@utility mo-hover-state-layer-color-* {
+    --mat-option-hover-state-layer-color: --value(--color-*);
+}
+
+@utility mo-label-text-color-* {
+    --mat-option-label-text-color: --value(--color-*);
+}
+
+@utility mo-selected-state-label-text-color-* {
+    --mat-option-selected-state-label-text-color: --value(--color-*);
+}
+
+@utility mo-selected-state-layer-color-* {
+    --mat-option-selected-state-layer-color: --value(--color-*);
+}
+
+/* Typography Type Utilities */
+@utility mo-label-text-leading-* {
+    --mat-option-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mo-label-text-size-* {
+    --mat-option-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mo-label-text-tracking-* {
+    --mat-option-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mo-label-font-* {
+    --mat-option-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
