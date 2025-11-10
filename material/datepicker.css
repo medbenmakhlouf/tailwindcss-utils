@@ -1,0 +1,166 @@
+/* Base Type Utilities */
+@utility md-calendar-container-elevation-shadow-* {
+    --mat-datepicker-calendar-container-elevation-shadow: calc(var(--spacing) * --value(number));
+}
+
+@utility md-calendar-container-shape-* {
+    --mat-datepicker-calendar-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility md-calendar-container-touch-elevation-shadow-* {
+    --mat-datepicker-calendar-container-touch-elevation-shadow: calc(var(--spacing) * --value(number));
+}
+
+@utility md-calendar-container-touch-shape-* {
+    --mat-datepicker-calendar-container-touch-shape: calc(var(--spacing) * --value(number));
+}
+
+/* Color Type Utilities */
+@utility md-calendar-body-label-text-color-* {
+    --mat-datepicker-calendar-body-label-text-color: --value(--color-*);
+}
+
+@utility md-calendar-container-background-color-* {
+    --mat-datepicker-calendar-container-background-color: --value(--color-*);
+}
+
+@utility md-calendar-container-text-color-* {
+    --mat-datepicker-calendar-container-text-color: --value(--color-*);
+}
+
+@utility md-calendar-date-disabled-state-text-color-* {
+    --mat-datepicker-calendar-date-disabled-state-text-color: --value(--color-*);
+}
+
+@utility md-calendar-date-focus-state-background-color-* {
+    --mat-datepicker-calendar-date-focus-state-background-color: --value(--color-*);
+}
+
+@utility md-calendar-date-hover-state-background-color-* {
+    --mat-datepicker-calendar-date-hover-state-background-color: --value(--color-*);
+}
+
+@utility md-calendar-date-in-comparison-range-state-background-color-* {
+    --mat-datepicker-calendar-date-in-comparison-range-state-background-color: --value(--color-*);
+}
+
+@utility md-calendar-date-in-overlap-range-selected-state-background-color-* {
+    --mat-datepicker-calendar-date-in-overlap-range-selected-state-background-color: --value(--color-*);
+}
+
+@utility md-calendar-date-in-overlap-range-state-background-color-* {
+    --mat-datepicker-calendar-date-in-overlap-range-state-background-color: --value(--color-*);
+}
+
+@utility md-calendar-date-in-range-state-background-color-* {
+    --mat-datepicker-calendar-date-in-range-state-background-color: --value(--color-*);
+}
+
+@utility md-calendar-date-outline-color-* {
+    --mat-datepicker-calendar-date-outline-color: --value(--color-*);
+}
+
+@utility md-calendar-date-preview-state-outline-color-* {
+    --mat-datepicker-calendar-date-preview-state-outline-color: --value(--color-*);
+}
+
+@utility md-calendar-date-selected-disabled-state-background-color-* {
+    --mat-datepicker-calendar-date-selected-disabled-state-background-color: --value(--color-*);
+}
+
+@utility md-calendar-date-selected-state-background-color-* {
+    --mat-datepicker-calendar-date-selected-state-background-color: --value(--color-*);
+}
+
+@utility md-calendar-date-selected-state-text-color-* {
+    --mat-datepicker-calendar-date-selected-state-text-color: --value(--color-*);
+}
+
+@utility md-calendar-date-text-color-* {
+    --mat-datepicker-calendar-date-text-color: --value(--color-*);
+}
+
+@utility md-calendar-date-today-disabled-state-outline-color-* {
+    --mat-datepicker-calendar-date-today-disabled-state-outline-color: --value(--color-*);
+}
+
+@utility md-calendar-date-today-outline-color-* {
+    --mat-datepicker-calendar-date-today-outline-color: --value(--color-*);
+}
+
+@utility md-calendar-date-today-selected-state-outline-color-* {
+    --mat-datepicker-calendar-date-today-selected-state-outline-color: --value(--color-*);
+}
+
+@utility md-calendar-header-divider-color-* {
+    --mat-datepicker-calendar-header-divider-color: --value(--color-*);
+}
+
+@utility md-calendar-header-text-color-* {
+    --mat-datepicker-calendar-header-text-color: --value(--color-*);
+}
+
+@utility md-calendar-navigation-button-icon-color-* {
+    --mat-datepicker-calendar-navigation-button-icon-color: --value(--color-*);
+}
+
+@utility md-calendar-period-button-icon-color-* {
+    --mat-datepicker-calendar-period-button-icon-color: --value(--color-*);
+}
+
+@utility md-calendar-period-button-text-color-* {
+    --mat-datepicker-calendar-period-button-text-color: --value(--color-*);
+}
+
+@utility md-range-input-disabled-state-separator-color-* {
+    --mat-datepicker-range-input-disabled-state-separator-color: --value(--color-*);
+}
+
+@utility md-range-input-disabled-state-text-color-* {
+    --mat-datepicker-range-input-disabled-state-text-color: --value(--color-*);
+}
+
+@utility md-range-input-separator-color-* {
+    --mat-datepicker-range-input-separator-color: --value(--color-*);
+}
+
+@utility md-toggle-active-state-icon-color-* {
+    --mat-datepicker-toggle-active-state-icon-color: --value(--color-*);
+}
+
+@utility md-toggle-icon-color-* {
+    --mat-datepicker-toggle-icon-color: --value(--color-*);
+}
+
+/* Typography Type Utilities */
+@utility md-calendar-body-label-text-size-* {
+    --mat-datepicker-calendar-body-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility md-calendar-body-label-font-*{
+    --mat-datepicker-calendar-body-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility md-calendar-header-text-size-* {
+    --mat-datepicker-calendar-header-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility md-calendar-header-font-*{
+    --mat-datepicker-calendar-header-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility md-calendar-period-button-text-size-* {
+    --mat-datepicker-calendar-period-button-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility md-calendar-period-button-font-* {
+    --mat-datepicker-calendar-period-button-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility md-calendar-text-font-* {
+    --mat-datepicker-calendar-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility md-calendar-text-size-* {
+    --mat-datepicker-calendar-text-size: calc(var(--spacing) * --value(number));
+}
