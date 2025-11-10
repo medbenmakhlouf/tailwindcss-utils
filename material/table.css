@@ -1,0 +1,91 @@
+@utility mt-row-item-outline-width-* {
+    --mat-table-row-item-outline-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mt-background-color-* {
+    --mat-table-background-color: --value(--color-*);
+}
+
+@utility mt-header-headline-color-* {
+    --mat-table-header-headline-color: --value(--color-*);
+}
+
+@utility mt-row-item-label-text-color-* {
+    --mat-table-row-item-label-text-color: --value(--color-*);
+}
+
+@utility mt-row-item-outline-color-* {
+    --mat-table-row-item-outline-color: --value(--color-*);
+}
+
+@utility mt-header-headline-font-* {
+    --mat-table-header-headline-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mt-header-headline-line-height-* {
+    --mat-table-header-headline-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mt-header-headline-size-* {
+    --mat-table-header-headline-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mt-header-headline-tracking-* {
+    --mat-table-header-headline-tracking: --value(number, [number])rem;
+}
+
+@utility mt-header-headline-weight-* {
+    --mat-table-header-headline-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mt-row-item-label-text-font-* {
+    --mat-table-row-item-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mt-row-item-label-text-line-height-* {
+    --mat-table-row-item-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mt-row-item-label-text-size-* {
+    --mat-table-row-item-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mt-row-item-label-text-tracking-* {
+    --mat-table-row-item-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mt-row-item-label-text-weight-* {
+    --mat-table-row-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mt-footer-supporting-text-font-* {
+    --mat-table-footer-supporting-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mt-footer-supporting-text-line-height-* {
+    --mat-table-footer-supporting-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mt-footer-supporting-text-size-* {
+    --mat-table-footer-supporting-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mt-footer-supporting-text-tracking-* {
+    --mat-table-footer-supporting-text-tracking: --value(number, [number])rem;
+}
+
+@utility mt-footer-supporting-text-weight-* {
+    --mat-table-footer-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mt-header-container-height-* {
+    --mat-table-header-container-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mt-footer-container-height-* {
+    --mat-table-footer-container-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mt-row-item-container-height-* {
+    --mat-table-row-item-container-height: calc(var(--spacing) * --value(number));
+}
