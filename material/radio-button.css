@@ -1,0 +1,95 @@
+@utility mrb-disabled-unselected-icon-opacity-* {
+    --mat-radion-button-disabled-unselected-icon-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mrb-disabled-selected-icon-opacity-* {
+    --mat-radion-button-disabled-selected-icon-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mrb-touch-target-size-* {
+    --mat-radion-button-touch-target-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mrb-checked-ripple-color-* {
+    --mat-radion-button-checked-ripple-color: --value(--color-*);
+}
+
+@utility mrb-disabled-label-color-* {
+    --mat-radion-button-disabled-label-color: --value(--color-*);
+}
+
+@utility mrb-disabled-selected-icon-color-* {
+    --mat-radion-button-disabled-selected-icon-color: --value(--color-*);
+}
+
+@utility mrb-disabled-unselected-icon-color-* {
+    --mat-radion-button-disabled-unselected-icon-color: --value(--color-*);
+}
+
+@utility mrb-label-text-color-* {
+    --mat-radion-button-label-text-color: --value(--color-*);
+}
+
+@utility mrb-ripple-color-* {
+    --mat-radion-button-ripple-color: --value(--color-*);
+}
+
+@utility mrb-selected-focus-icon-color-* {
+    --mat-radion-button-selected-focus-icon-color: --value(--color-*);
+}
+
+@utility mrb-selected-hover-icon-color-* {
+    --mat-radion-button-selected-hover-icon-color: --value(--color-*);
+}
+
+@utility mrb-selected-icon-color-* {
+    --mat-radion-button-selected-icon-color: --value(--color-*);
+}
+
+@utility mrb-selected-pressed-icon-color-* {
+    --mat-radion-button-selected-pressed-icon-color: --value(--color-*);
+}
+
+@utility mrb-unselected-focus-icon-color-* {
+    --mat-radion-button-unselected-focus-icon-color: --value(--color-*);
+}
+
+@utility mrb-unselected-hover-icon-color-* {
+    --mat-radion-button-unselected-hover-icon-color: --value(--color-*);
+}
+
+@utility mrb-unselected-icon-color-* {
+    --mat-radion-button-unselected-icon-color: --value(--color-*);
+}
+
+@utility mrb-unselected-pressed-icon-color-* {
+    --mat-radion-button-unselected-pressed-icon-color: --value(--color-*);
+}
+
+@utility mrb-label-text-font-* {
+    --mat-radion-button-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mrb-label-text-line-height-* {
+    --mat-radion-button-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mrb-label-text-size-* {
+    --mat-radion-button-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mrb-label-text-tracking-* {
+    --mat-radion-button-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mrb-label-text-weight-* {
+    --mat-radion-button-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mrb-touch-target-display-* {
+    --mat-radion-button-touch-target-display: calc(var(--spacing) * --value(number));
+}
+
+@utility mrb-state-layer-size-* {
+    --mat-radion-button-state-layer-size: calc(var(--spacing) * --value(number));
+}
