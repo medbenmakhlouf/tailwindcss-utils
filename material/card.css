@@ -1,0 +1,86 @@
+/* Base Tokens */
+@utility mc-elevated-container-shape-* {
+    --mat-card-elevated-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mc-filled-container-shape-* {
+    --mat-card-filled-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mc-outlined-container-shape-* {
+    --mat-card-outlined-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mc-outlined-outline-width-* {
+    --mat-card-outlined-outline-width: calc(var(--spacing) * --value(number));
+}
+
+/* Color Tokens */
+@utility mc-elevated-container-color-* {
+    --mat-card-elevated-container-color: --value(--color-*);
+}
+
+@utility mc-elevated-container-elevation-* {
+    --mat-card-elevated-container-elevation: --value(--color-*);
+}
+
+@utility mc-filled-container-color-* {
+    --mat-card-filled-container-color: --value(--color-*);
+}
+
+@utility mc-filled-container-elevation-* {
+    --mat-card-filled-container-elevation: --value(--color-*);
+}
+
+@utility mc-outlined-container-color-* {
+    --mat-card-outlined-container-color: --value(--color-*);
+}
+
+@utility mc-outlined-container-elevation-* {
+    --mat-card-outlined-container-elevation: --value(--color-*);
+}
+
+@utility mc-outlined-outline-color-* {
+    --mat-card-outlined-outline-color: --value(--color-*);
+}
+
+@utility mc-subtitle-text-color-* {
+    --mat-card-subtitle-text-color: --value(--color-*);
+}
+
+/* Typography Tokens */
+@utility mc-subtitle-text-font-* {
+    --mat-card-subtitle-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mc-subtitle-text-leading-* {
+    --mat-card-subtitle-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mc-subtitle-text-size-* {
+    --mat-card-subtitle-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mc-subtitle-text-tracking-* {
+    --mat-card-subtitle-text-tracking: --value(number, [number])rem;
+}
+
+@utility mc-subtitle-text-weight-* {
+    --mat-card-subtitle-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mc-title-text-leading-* {
+    --mat-card-title-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mc-title-text-size-* {
+    --mat-card-title-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mc-title-text-tracking-* {
+    --mat-card-title-text-tracking: --value(number, [number])rem;
+}
+
+@utility mc-title-font-* {
+    --mat-card-title-text-weight: --value(--font-weight-*, integer, [integer]);
+}
