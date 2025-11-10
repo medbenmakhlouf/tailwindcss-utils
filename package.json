@@ -2,7 +2,6 @@
   "name": "tailwind-ionic-utils",
   "version": "1.0.4",
   "description": "Tailwind v4 utility library for Ionic",
-  "main": "dist/ionic-utils.css",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -54,17 +53,14 @@
     "tailwindcss": "^4.0.0"
   },
   "files": [
-    "dist",
-    "ionic/index.css",
-    "angular-material/index.css"
+    "angular-material/",
+    "ionic/"
   ],
-  "exports": {
-    "./dist": "./dist/ionic-utils.css",
-    "./tailwind-ionic.css": "./ionic/index.css"
-  },
   "keywords": [
     "tailwind",
     "ionic",
+    "angular",
+    "material",
     "css",
     "utilities"
   ],
