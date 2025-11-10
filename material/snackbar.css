@@ -1,0 +1,29 @@
+@utility msb-container-shape-* {
+    --mat-snackbar-container-shape: calc(var(--spacing) * --value(number));
+}
+@utility msb-button-color-* {
+    --mat-snackbar-button-color: --value(--color-*);
+}
+
+@utility msb-container-color-* {
+    --mat-snackbar-container-color: --value(--color-*);
+}
+
+@utility msb-supporting-text-color-* {
+    --mat-snackbar-supporting-text-color: --value(--color-*);
+}
+@utility msb-supporting-text-font-* {
+    --mat-snackbar-supporting-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility msb-supporting-text-line-height-* {
+    --mat-snackbar-supporting-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility msb-supporting-text-size-* {
+    --mat-snackbar-supporting-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility msb-supporting-text-weight-* {
+    --mat-snackbar-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
+}
