@@ -1,0 +1,20 @@
+/* Color Type Utilities */
+@utility mog-label-text-color-* {
+    --mat-optgroup-label-text-color: --value(--color-*);
+}
+/* Typography Type Utilities */
+@utility mog-label-text-leading-* {
+    --mat-optgroup-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mog-label-text-size-* {
+    --mat-optgroup-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mog-label-text-tracking-* {
+    --mat-optgroup-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mog-label-font-* {
+    --mat-optgroup-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
