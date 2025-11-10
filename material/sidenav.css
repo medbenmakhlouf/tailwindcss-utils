@@ -1,0 +1,35 @@
+@utility msc-container-background-color-* {
+    --mat-sidenav-content-container-background-color: --value(--color-*);
+}
+
+@utility msc-container-text-color-* {
+    --mat-sidenav-content-container-text-color: --value(--color-*);
+}
+
+@utility msc-content-background-color-* {
+    --mat-sidenav-content-content-background-color: --value(--color-*);
+}
+
+@utility msc-content-text-color-* {
+    --mat-sidenav-content-content-text-color: --value(--color-*);
+}
+
+@utility msc-scrim-color-* {
+    --mat-sidenav-content-scrim-color: --value(--color-*);
+}
+
+@utility msc-container-shape-* {
+    --mat-sidenav-content-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility msc-container-elevation-shadow-* {
+    --mat-sidenav-content-container-elevation-shadow: calc(var(--spacing) * --value(number));
+}
+
+@utility msc-container-width-* {
+    --mat-sidenav-content-container-width: calc(var(--spacing) * --value(number));
+}
+
+@utility msc-container-divider-color-* {
+    --mat-sidenav-content-container-divider-color: calc(var(--spacing) * --value(number));
+}
