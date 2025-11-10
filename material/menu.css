@@ -1,0 +1,86 @@
+/* Base Type Utilities */
+@utility mm-divider-bottom-spacing-* {
+    --mat-menu-divider-bottom-spacing: calc(var(--spacing) * --value(number));
+}
+
+@utility mm-divider-top-spacing-* {
+    --mat-menu-divider-top-spacing: calc(var(--spacing) * --value(number));
+}
+
+@utility mm-item-icon-size-* {
+    --mat-menu-item-icon-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mm-item-spacing-* {
+    --mat-menu-item-spacing: calc(var(--spacing) * --value(number));
+}
+
+@utility mm-item-leading-spacing-* {
+    --mat-menu-item-leading-spacing: calc(var(--spacing) * --value(number));
+}
+
+@utility mm-item-trailing-spacing-* {
+    --mat-menu-item-trailing-spacing: calc(var(--spacing) * --value(number));
+}
+
+@utility mm-item-with-icon-leading-spacing-* {
+    --mat-menu-item-with-icon-leading-spacing: calc(var(--spacing) * --value(number));
+}
+
+@utility mm-item-with-icon-trailing-spacing-* {
+    --mat-menu-item-with-icon-trailing-spacing: calc(var(--spacing) * --value(number));
+}
+
+/* Color Type Utilities */
+@utility mm-container-shape-* {
+    --mat-menu-container-shape: --value(--color-*);
+}
+
+@utility mm-divider-color-* {
+    --mat-menu-divider-color: --value(--color-*);
+}
+
+@utility mm-item-label-text-color-* {
+    --mat-menu-item-label-text-color: --value(--color-*);
+}
+
+@utility mm-item-icon-color-* {
+    --mat-menu-item-icon-color: --value(--color-*);
+}
+
+@utility mm-item-hover-state-layer-color-* {
+    --mat-menu-item-hover-state-layer-color: --value(--color-*);
+}
+
+@utility mm-item-focus-state-layer-color-* {
+    --mat-menu-item-focus-state-layer-color: --value(--color-*);
+}
+
+@utility mm-container-color-* {
+    --mat-menu-container-color: --value(--color-*);
+}
+
+@utility mm-container-elevation-shadow-* {
+    --mat-menu-container-elevation-shadow: --value(--color-*);
+}
+
+/* Typography Type Utilities */
+@utility mm-item-label-text-leading-* {
+    --mat-menu-item-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mm-item-label-text-size-* {
+    --mat-menu-item-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mm-item-label-text-tracking-* {
+    --mat-menu-item-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mm-item-label-text-font-* {
+    --mat-menu-item-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mm-item-label-text-weight-* {
+    --mat-menu-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
