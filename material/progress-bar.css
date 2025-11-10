@@ -1,0 +1,20 @@
+/* Base Type Utilities */
+@utility mpb-active-indicator-height-* {
+    --mat-progress-bar-active-indicator-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mpb-track-height-* {
+    --mat-progress-bar-track-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mpb-track-shape-* {
+    --mat-progress-bar-track-shape: calc(var(--spacing) * --value(number));
+}
+/* Color Type Utilities */
+@utility mpb-active-indicator-color-* {
+    --mat-progress-bar-active-indicator-color: --value(--color-*);
+}
+
+@utility mpb-track-color-* {
+    --mat-progress-bar-track-color: --value(--color-*);
+}
