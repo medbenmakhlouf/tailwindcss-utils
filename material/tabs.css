@@ -1,0 +1,99 @@
+@utility mtb-active-indicator-height-* {
+    --mat-tab-active-indicator-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mtb-active-indicator-shape-* {
+    --mat-tab-active-indicator-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mtb-divider-height-* {
+    --mat-tab-divider-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mtb-active-focus-indicator-color-* {
+    --mat-tab-active-focus-indicator-color: --value(--color-*);
+}
+
+@utility mtb-active-focus-label-text-color-* {
+    --mat-tab-active-focus-label-text-color: --value(--color-*);
+}
+
+@utility mtb-active-hover-indicator-color-* {
+    --mat-tab-active-hover-indicator-color: --value(--color-*);
+}
+
+@utility mtb-active-hover-label-text-color-* {
+    --mat-tab-active-hover-label-text-color: --value(--color-*);
+}
+
+@utility mtb-active-indicator-color-* {
+    --mat-tab-active-indicator-color: --value(--color-*);
+}
+
+@utility mtb-active-label-text-color-* {
+    --mat-tab-active-label-text-color: --value(--color-*);
+}
+
+@utility mtb-active-ripple-color-* {
+    --mat-tab-active-ripple-color: --value(--color-*);
+}
+
+@utility mtb-divider-color-* {
+    --mat-tab-divider-color: --value(--color-*);
+}
+
+@utility mtb-inactive-focus-label-text-color-* {
+    --mat-tab-inactive-focus-label-text-color: --value(--color-*);
+}
+
+@utility mtb-inactive-hover-label-text-color-* {
+    --mat-tab-inactive-hover-label-text-color: --value(--color-*);
+}
+
+@utility mtb-inactive-label-text-color-* {
+    --mat-tab-inactive-label-text-color: --value(--color-*);
+}
+
+@utility mtb-inactive-ripple-color-* {
+    --mat-tab-inactive-ripple-color: --value(--color-*);
+}
+
+@utility mtb-pagination-icon-color-* {
+    --mat-tab-pagination-icon-color: --value(--color-*);
+}
+
+@utility mtb-disabled-ripple-color-* {
+    --mat-tab-disabled-ripple-color: --value(--color-*);
+}
+
+@utility mtb-background-color-* {
+    --mat-tab-background-color: --value(--color-*);
+}
+
+@utility mtb-foreground-color-* {
+    --mat-tab-foreground-color: --value(--color-*);
+}
+
+@utility mtb-label-text-font-* {
+    --mat-tab-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mtb-label-text-line-height-* {
+    --mat-tab-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mtb-label-text-size-* {
+    --mat-tab-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mtb-label-text-tracking-* {
+    --mat-tab-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mtb-label-text-weight-* {
+    --mat-tab-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mtb-container-height-* {
+    --mat-tab-container-height: calc(var(--spacing) * --value(number));
+}
