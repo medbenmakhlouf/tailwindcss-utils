@@ -1,0 +1,111 @@
+@utility msp-header-error-state-icon-background-color-* {
+    --mat-stepper-header-error-state-icon-background-color: calc(var(--spacing) * --value(number));
+}
+
+@utility msp-header-focus-state-layer-shape-* {
+    --mat-stepper-header-focus-state-layer-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility msp-header-hover-state-layer-shape-* {
+    --mat-stepper-header-hover-state-layer-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility msp-container-color-* {
+    --mat-stepper-container-color: --value(--color-*);
+}
+
+@utility msp-header-done-state-icon-background-color-* {
+    --mat-stepper-header-done-state-icon-background-color: --value(--color-*);
+}
+
+@utility msp-header-done-state-icon-foreground-color-* {
+    --mat-stepper-header-done-state-icon-foreground-color: --value(--color-*);
+}
+
+@utility msp-header-edit-state-icon-background-color-* {
+    --mat-stepper-header-edit-state-icon-background-color: --value(--color-*);
+}
+
+@utility msp-header-edit-state-icon-foreground-color-* {
+    --mat-stepper-header-edit-state-icon-foreground-color: --value(--color-*);
+}
+
+@utility msp-header-error-state-icon-foreground-color-* {
+    --mat-stepper-header-error-state-icon-foreground-color: --value(--color-*);
+}
+
+@utility msp-header-error-state-label-text-color-* {
+    --mat-stepper-header-error-state-label-text-color: --value(--color-*);
+}
+
+@utility msp-header-focus-state-layer-color-* {
+    --mat-stepper-header-focus-state-layer-color: --value(--color-*);
+}
+
+@utility msp-header-hover-state-layer-color-* {
+    --mat-stepper-header-hover-state-layer-color: --value(--color-*);
+}
+
+@utility msp-header-icon-background-color-* {
+    --mat-stepper-header-icon-background-color: --value(--color-*);
+}
+
+@utility msp-header-icon-foreground-color-* {
+    --mat-stepper-header-icon-foreground-color: --value(--color-*);
+}
+
+@utility msp-header-label-text-color-* {
+    --mat-stepper-header-label-text-color: --value(--color-*);
+}
+
+@utility msp-header-optional-label-text-color-* {
+    --mat-stepper-header-optional-label-text-color: --value(--color-*);
+}
+
+@utility msp-header-selected-state-icon-background-color-* {
+    --mat-stepper-header-selected-state-icon-background-color: --value(--color-*);
+}
+
+@utility msp-header-selected-state-icon-foreground-color-* {
+    --mat-stepper-header-selected-state-icon-foreground-color: --value(--color-*);
+}
+
+@utility msp-header-selected-state-label-text-color-* {
+    --mat-stepper-header-selected-state-label-text-color: --value(--color-*);
+}
+
+@utility msp-line-color-* {
+    --mat-stepper-line-color: --value(--color-*);
+}
+
+@utility msp-container-text-font-* {
+    --mat-stepper-container-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility msp-header-label-text-font-* {
+    --mat-stepper-header-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility msp-header-label-text-size-* {
+    --mat-stepper-header-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility msp-header-label-text-weight-* {
+    --mat-stepper-header-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility msp-header-error-state-label-text-size-* {
+    --mat-stepper-header-error-state-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility msp-header-selected-state-label-text-size-* {
+    --mat-stepper-header-selected-state-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility msp-header-selected-state-label-text-weight-* {
+    --mat-stepper-header-selected-state-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility msp-header-height-* {
+    --mat-stepper-header-height: calc(var(--spacing) * --value(number));
+}
