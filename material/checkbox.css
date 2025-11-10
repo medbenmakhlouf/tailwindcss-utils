@@ -1,0 +1,136 @@
+/* Base Type Utilities */
+@utility mck-selected-focus-state-layer-opacity-* {
+    --mat-checkbox-selected-focus-state-layer-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mck-selected-hover-state-layer-opacity-* {
+    --mat-checkbox-selected-hover-state-layer-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mck-selected-pressed-state-layer-opacity-* {
+    --mat-checkbox-selected-pressed-state-layer-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mck-unselected-focus-state-layer-opacity-* {
+    --mat-checkbox-unselected-focus-state-layer-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mck-unselected-hover-state-layer-opacity-* {
+    --mat-checkbox-unselected-hover-state-layer-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mck-unselected-pressed-state-layer-opacity-* {
+    --mat-checkbox-unselected-pressed-state-layer-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mck-touch-target-size-* {
+    --mat-checkbox-touch-target-size: calc(var(--spacing) * --value(number));
+}
+
+
+/* Color Type Utilities */
+@utility mck-disabled-label-color-* {
+    --mat-checkbox-disabled-label-color: --value(--color-*);
+}
+
+@utility mck-disabled-selected-checkmark-color-* {
+    --mat-checkbox-disabled-selected-checkmark-color: --value(--color-*);
+}
+
+@utility mck-disabled-selected-icon-color-* {
+    --mat-checkbox-disabled-selected-icon-color: --value(--color-*);
+}
+
+@utility mck-disabled-unselected-icon-color-* {
+    --mat-checkbox-disabled-unselected-icon-color: --value(--color-*);
+}
+
+@utility mck-label-text-color-* {
+    --mat-checkbox-label-text-color: --value(--color-*);
+}
+
+@utility mck-selected-checkmark-color-* {
+    --mat-checkbox-selected-checkmark-color: --value(--color-*);
+}
+
+@utility mck-selected-focus-icon-color-* {
+    --mat-checkbox-selected-focus-icon-color: --value(--color-*);
+}
+
+@utility mck-selected-focus-state-layer-color-* {
+    --mat-checkbox-selected-focus-state-layer-color: --value(--color-*);
+}
+
+@utility mck-selected-hover-icon-color-* {
+    --mat-checkbox-selected-hover-icon-color: --value(--color-*);
+}
+
+@utility mck-selected-hover-state-layer-color-* {
+    --mat-checkbox-selected-hover-state-layer-color: --value(--color-*);
+}
+
+@utility mck-selected-icon-color-* {
+    --mat-checkbox-selected-icon-color: --value(--color-*);
+}
+
+@utility mck-selected-pressed-icon-color-* {
+    --mat-checkbox-selected-pressed-icon-color: --value(--color-*);
+}
+
+@utility mck-selected-pressed-state-layer-color-* {
+    --mat-checkbox-selected-pressed-state-layer-color: --value(--color-*);
+}
+
+@utility mck-unselected-focus-icon-color-* {
+    --mat-checkbox-unselected-focus-icon-color: --value(--color-*);
+}
+
+@utility mck-unselected-focus-state-layer-color-* {
+    --mat-checkbox-unselected-focus-state-layer-color: --value(--color-*);
+}
+
+@utility mck-unselected-hover-icon-color-* {
+    --mat-checkbox-unselected-hover-icon-color: --value(--color-*);
+}
+
+@utility mck-unselected-hover-state-layer-color-* {
+    --mat-checkbox-unselected-hover-state-layer-color: --value(--color-*);
+}
+
+@utility mck-unselected-icon-color-* {
+    --mat-checkbox-unselected-icon-color: --value(--color-*);
+}
+
+@utility mck-unselected-pressed-state-layer-color-* {
+    --mat-checkbox-unselected-pressed-state-layer-color: --value(--color-*);
+}
+/* Typography Type Utilities */
+@utility mck-label-text-leading-* {
+    --mat-checkbox-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mck-label-text-size-* {
+    --mat-checkbox-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mck-label-text-tracking-* {
+    --mat-checkbox-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mck-label-text-font-* {
+    --mat-checkbox-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mck-label-text-weight-* {
+    --mat-checkbox-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+/* Density Type Utilities */
+@utility mck-touch-target-display-* {
+    --mat-checkbox-touch-target-display: calc(var(--spacing) * --value(number));
+}
+
+@utility mck-state-layer-size-* {
+    --mat-checkbox-state-layer-size: calc(var(--spacing) * --value(number));
+}
+
+
