@@ -1,0 +1,32 @@
+/* Color Type Utilities */
+@utility mpc-full-disabled-selected-checkmark-color-* {
+    --mat-pseudo-checkbox-full-disabled-selected-checkmark-color: --value(--color-*);
+}
+
+@utility mpc-full-disabled-selected-icon-color-* {
+    --mat-pseudo-checkbox-full-disabled-selected-icon-color: --value(--color-*);
+}
+
+@utility mpc-full-disabled-unselected-icon-color-* {
+    --mat-pseudo-checkbox-full-disabled-unselected-icon-color: --value(--color-*);
+}
+
+@utility mpc-full-selected-checkmark-color-* {
+    --mat-pseudo-checkbox-full-selected-checkmark-color: --value(--color-*);
+}
+
+@utility mpc-full-selected-icon-color-* {
+    --mat-pseudo-checkbox-full-selected-icon-color: --value(--color-*);
+}
+
+@utility mpc-full-unselected-icon-color-* {
+    --mat-pseudo-checkbox-full-unselected-icon-color: --value(--color-*);
+}
+
+@utility mpc-minimal-disabled-selected-checkmark-color-* {
+    --mat-pseudo-checkbox-minimal-disabled-selected-checkmark-color: --value(--color-*);
+}
+
+@utility mpc-minimal-selected-checkmark-color-* {
+    --mat-pseudo-checkbox-minimal-selected-checkmark-color: --value(--color-*);
+}
