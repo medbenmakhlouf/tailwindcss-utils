@@ -8,7 +8,7 @@ Import into your Tailwind CSS entry file:
 
 ```css
 @import "tailwindcss"; /* Make sure you import tailwindcss lib first */
-@import "@tailwindcss/utils/ionic/index.css";
+@import "tailwindcss-utils/ionic/index.css";
 ```
 
 > Requires Tailwind CSS v4 and a build setup that supports `@utility`.
