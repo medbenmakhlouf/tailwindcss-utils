@@ -1,8 +1,8 @@
 {
   "name": "tailwindcss-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tailwind v4 utility library for Ionic and Angular Material components.",
-  "author": "Mohamed Ben Makhlouf <med.ben.makhlouf@gmail.com>",
+  "author": "Mohamed Ben Makhlouf <med.b.makhlouf@gmail.com>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
