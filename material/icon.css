@@ -1,0 +1,4 @@
+/* Base Type Utilities */
+@utility m-icon-* {
+    --mat-icon-color: --value(--color-*);
+}

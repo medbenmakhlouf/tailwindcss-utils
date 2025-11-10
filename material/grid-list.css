@@ -1,0 +1,16 @@
+/* Typography Type Utilities */
+@utility mgl-tile-header-primary-text-size-* {
+    --mat-grid-list-tile-header-primary-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mgl-tile-header-secondary-text-size-* {
+    --mat-grid-list-tile-header-secondary-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mgl-tile-footer-primary-text-size-* {
+    --mat-grid-list-tile-footer-primary-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mgl-tile-footer-secondary-text-size-* {
+    --mat-grid-list-tile-footer-secondary-text-size: calc(var(--spacing) * --value(number));
+}
