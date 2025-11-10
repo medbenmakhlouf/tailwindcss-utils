@@ -1,7 +1,8 @@
 {
   "name": "tailwind-ionic-utils",
   "version": "1.0.4",
-  "description": "Tailwind v4 utility library for Ionic",
+  "description": "Tailwind v4 utility library for Ionic and Angular Material components.",
+  "author": "Mohamed Ben Makhlouf <med.ben.makhlouf@gmail.com>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
