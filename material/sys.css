@@ -1,383 +1,383 @@
 /* colors */
-@utility ms-bg-* {
+@utility msys-bg-* {
     --mat-sys-background: --value(--color-*);
 }
-@utility ms-error-* {
+@utility msys-error-* {
     --mat-sys-error: --value(--color-*);
 }
-@utility ms-error-container-* {
+@utility msys-error-container-* {
     --mat-sys-error-container: --value(--color-*);
 }
-@utility ms-inverse-on-surface-* {
+@utility msys-inverse-on-surface-* {
     --mat-sys-inverse-on-surface: --value(--color-*);
 }
-@utility ms-inverse-primary-* {
+@utility msys-inverse-primary-* {
     --mat-sys-inverse-primary: --value(--color-*);
 }
-@utility ms-inverse-surface-* {
+@utility msys-inverse-surface-* {
     --mat-sys-inverse-surface: --value(--color-*);
 }
-@utility ms-on-bg-* {
+@utility msys-on-bg-* {
     --mat-sys-on-background: --value(--color-*);
 }
-@utility ms-on-error-* {
+@utility msys-on-error-* {
     --mat-sys-on-error: --value(--color-*);
 }
-@utility ms-on-error-container-* {
+@utility msys-on-error-container-* {
     --mat-sys-on-error-container: --value(--color-*);
 }
-@utility ms-on-primary-* {
+@utility msys-on-primary-* {
     --mat-sys-on-primary: --value(--color-*);
 }
-@utility ms-on-primary-container-* {
+@utility msys-on-primary-container-* {
     --mat-sys-on-primary-container: --value(--color-*);
 }
-@utility ms-on-primary-fixed-* {
+@utility msys-on-primary-fixed-* {
     --mat-sys-on-primary-fixed: --value(--color-*);
 }
-@utility ms-on-primary-fixed-variant-* {
+@utility msys-on-primary-fixed-variant-* {
     --mat-sys-on-primary-fixed-variant: --value(--color-*);
 }
-@utility ms-on-secondary-* {
+@utility msys-on-secondary-* {
     --mat-sys-on-secondary: --value(--color-*);
 }
-@utility ms-on-secondary-container-* {
+@utility msys-on-secondary-container-* {
     --mat-sys-on-secondary-container: --value(--color-*);
 }
-@utility ms-on-secondary-fixed-* {
+@utility msys-on-secondary-fixed-* {
     --mat-sys-on-secondary-fixed: --value(--color-*);
 }
-@utility ms-on-secondary-fixed-variant-* {
+@utility msys-on-secondary-fixed-variant-* {
     --mat-sys-on-secondary-fixed-variant: --value(--color-*);
 }
-@utility ms-on-surface-* {
+@utility msys-on-surface-* {
     --mat-sys-on-surface: --value(--color-*);
 }
-@utility ms-on-surface-variant-* {
+@utility msys-on-surface-variant-* {
     --mat-sys-on-surface-variant: --value(--color-*);
 }
-@utility ms-on-tertiary-* {
+@utility msys-on-tertiary-* {
     --mat-sys-on-tertiary: --value(--color-*);
 }
-@utility ms-on-tertiary-container-* {
+@utility msys-on-tertiary-container-* {
     --mat-sys-on-tertiary-container: --value(--color-*);
 }
-@utility ms-on-tertiary-fixed-* {
+@utility msys-on-tertiary-fixed-* {
     --mat-sys-on-tertiary-fixed: --value(--color-*);
 }
-@utility ms-on-tertiary-fixed-variant-* {
+@utility msys-on-tertiary-fixed-variant-* {
     --mat-sys-on-tertiary-fixed-variant: --value(--color-*);
 }
-@utility ms-outline-* {
+@utility msys-outline-* {
     --mat-sys-outline: --value(--color-*);
 }
-@utility ms-outline-variant-* {
+@utility msys-outline-variant-* {
     --mat-sys-outline-variant: --value(--color-*);
 }
-@utility ms-primary-* {
+@utility msys-primary-* {
     --mat-sys-primary: --value(--color-*);
 }
-@utility ms-primary-container-* {
+@utility msys-primary-container-* {
     --mat-sys-primary-container: --value(--color-*);
 }
-@utility ms-primary-fixed-* {
+@utility msys-primary-fixed-* {
     --mat-sys-primary-fixed: --value(--color-*);
 }
-@utility ms-primary-fixed-dim-* {
+@utility msys-primary-fixed-dim-* {
     --mat-sys-primary-fixed-dim: --value(--color-*);
 }
-@utility ms-scrim-* {
+@utility msys-scrim-* {
     --mat-sys-scrim: --value(--color-*);
 }
-@utility ms-secondary-* {
+@utility msys-secondary-* {
     --mat-sys-secondary: --value(--color-*);
 }
-@utility ms-secondary-container-* {
+@utility msys-secondary-container-* {
     --mat-sys-secondary-container: --value(--color-*);
 }
-@utility ms-secondary-fixed-* {
+@utility msys-secondary-fixed-* {
     --mat-sys-secondary-fixed: --value(--color-*);
 }
-@utility ms-secondary-fixed-dim-* {
+@utility msys-secondary-fixed-dim-* {
     --mat-sys-secondary-fixed-dim: --value(--color-*);
 }
-@utility ms-shadow-* {
+@utility msys-shadow-* {
     --mat-sys-shadow: --value(--color-*);
 }
-@utility ms-surface-* {
+@utility msys-surface-* {
     --mat-sys-surface: --value(--color-*);
 }
-@utility ms-surface-bright-* {
+@utility msys-surface-bright-* {
     --mat-sys-surface-bright: --value(--color-*);
 }
-@utility ms-surface-container-* {
+@utility msys-surface-container-* {
     --mat-sys-surface-container: --value(--color-*);
 }
-@utility ms-surface-container-high-* {
+@utility msys-surface-container-high-* {
     --mat-sys-surface-container-high: --value(--color-*);
 }
-@utility ms-surface-container-highest-* {
+@utility msys-surface-container-highest-* {
     --mat-sys-surface-container-highest: --value(--color-*);
 }
-@utility ms-surface-container-low-* {
+@utility msys-surface-container-low-* {
     --mat-sys-surface-container-low: --value(--color-*);
 }
-@utility ms-surface-container-lowest-* {
+@utility msys-surface-container-lowest-* {
     --mat-sys-surface-container-lowest: --value(--color-*);
 }
-@utility ms-surface-dim-* {
+@utility msys-surface-dim-* {
     --mat-sys-surface-dim: --value(--color-*);
 }
-@utility ms-surface-tint-* {
+@utility msys-surface-tint-* {
     --mat-sys-surface-tint: --value(--color-*);
 }
-@utility ms-surface-variant-* {
+@utility msys-surface-variant-* {
     --mat-sys-surface-variant: --value(--color-*);
 }
-@utility ms-tertiary-* {
+@utility msys-tertiary-* {
     --mat-sys-tertiary: --value(--color-*);
 }
-@utility ms-tertiary-container-* {
+@utility msys-tertiary-container-* {
     --mat-sys-tertiary-container: --value(--color-*);
 }
-@utility ms-tertiary-fixed-* {
+@utility msys-tertiary-fixed-* {
     --mat-sys-tertiary-fixed: --value(--color-*);
 }
-@utility ms-tertiary-fixed-dim-* {
+@utility msys-tertiary-fixed-dim-* {
     --mat-sys-tertiary-fixed-dim: --value(--color-*);
 }
-@utility ms-neutral-variant20-* {
+@utility msys-neutral-variant20-* {
     --mat-sys-neutral-variant20: --value(--color-*);
 }
-@utility ms-neutral10-* {
+@utility msys-neutral10-* {
     --mat-sys-neutral10: --value(--color-*);
 }
 /* Body */
-@utility ms-body-lg-leading-* {
+@utility msys-body-lg-leading-* {
     --mat-sys-body-large-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-body-lg-size-* {
+@utility msys-body-lg-size-* {
     --mat-sys-body-large-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-body-lg-tracking-* {
+@utility msys-body-lg-tracking-* {
     --mat-sys-body-large-tracking: --value(number, [number])rem;
 }
-@utility ms-body-lg-font-* {
+@utility msys-body-lg-font-* {
     --mat-sys-body-large-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-body-md-leading-* {
+@utility msys-body-md-leading-* {
     --mat-sys-body-medium-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-body-md-size-* {
+@utility msys-body-md-size-* {
     --mat-sys-body-medium-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-body-md-tracking-* {
+@utility msys-body-md-tracking-* {
     --mat-sys-body-medium-tracking: --value(number, [number])rem;
 }
-@utility ms-body-md-font-* {
+@utility msys-body-md-font-* {
     --mat-sys-body-medium-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-body-sm-leading-* {
+@utility msys-body-sm-leading-* {
     --mat-sys-body-small-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-body-sm-size-* {
+@utility msys-body-sm-size-* {
     --mat-sys-body-small-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-body-sm-tracking-* {
+@utility msys-body-sm-tracking-* {
     --mat-sys-body-small-tracking: --value(number, [number])rem;
 }
-@utility ms-body-sm-font-* {
+@utility msys-body-sm-font-* {
     --mat-sys-body-small-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 /* Display */
-@utility ms-display-lg-leading-* {
+@utility msys-display-lg-leading-* {
     --mat-sys-display-large-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-display-lg-size-* {
+@utility msys-display-lg-size-* {
     --mat-sys-display-large-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-display-lg-tracking-* {
+@utility msys-display-lg-tracking-* {
     --mat-sys-display-large-tracking: --value(number, [number])rem;
 }
-@utility ms-display-lg-font-* {
+@utility msys-display-lg-font-* {
     --mat-sys-display-large-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-display-md-leading-* {
+@utility msys-display-md-leading-* {
     --mat-sys-display-medium-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-display-md-size-* {
+@utility msys-display-md-size-* {
     --mat-sys-display-medium-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-display-md-tracking-* {
+@utility msys-display-md-tracking-* {
     --mat-sys-display-medium-tracking: --value(number, [number])rem;
 }
-@utility ms-display-md-font-* {
+@utility msys-display-md-font-* {
     --mat-sys-display-medium-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-display-sm-leading-* {
+@utility msys-display-sm-leading-* {
     --mat-sys-display-small-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-display-sm-size-* {
+@utility msys-display-sm-size-* {
     --mat-sys-display-small-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-display-sm-tracking-* {
+@utility msys-display-sm-tracking-* {
     --mat-sys-display-small-tracking: --value(number, [number])rem;
 }
-@utility ms-display-sm-font-* {
+@utility msys-display-sm-font-* {
     --mat-sys-display-small-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 /* Headline */
-@utility ms-headline-lg-leading-* {
+@utility msys-headline-lg-leading-* {
     --mat-sys-headline-large-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-headline-lg-size-* {
+@utility msys-headline-lg-size-* {
     --mat-sys-headline-large-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-headline-lg-tracking-* {
+@utility msys-headline-lg-tracking-* {
     --mat-sys-headline-large-tracking: --value(number, [number])rem;
 }
-@utility ms-headline-lg-font-* {
+@utility msys-headline-lg-font-* {
     --mat-sys-headline-large-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-headline-md-leading-* {
+@utility msys-headline-md-leading-* {
     --mat-sys-headline-medium-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-headline-md-size-* {
+@utility msys-headline-md-size-* {
     --mat-sys-headline-medium-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-headline-md-tracking-* {
+@utility msys-headline-md-tracking-* {
     --mat-sys-headline-medium-tracking: --value(number, [number])rem;
 }
-@utility ms-headline-md-font-* {
+@utility msys-headline-md-font-* {
     --mat-sys-headline-medium-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-headline-sm-leading-* {
+@utility msys-headline-sm-leading-* {
     --mat-sys-headline-small-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-headline-sm-size-* {
+@utility msys-headline-sm-size-* {
     --mat-sys-headline-small-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-headline-sm-tracking-* {
+@utility msys-headline-sm-tracking-* {
     --mat-sys-headline-small-tracking: --value(number, [number])rem;
 }
-@utility ms-headline-sm-font-* {
+@utility msys-headline-sm-font-* {
     --mat-sys-headline-small-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 /* Label */
-@utility ms-label-lg-leading-* {
+@utility msys-label-lg-leading-* {
     --mat-sys-label-large-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-label-lg-size-* {
+@utility msys-label-lg-size-* {
     --mat-sys-label-large-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-label-lg-tracking-* {
+@utility msys-label-lg-tracking-* {
     --mat-sys-label-large-tracking: --value(number, [number])rem;
 }
-@utility ms-label-lg-font-* {
+@utility msys-label-lg-font-* {
     --mat-sys-label-large-weight: --value(--font-weight-*, integer, [integer]);
 }
-@utility ms-label-lg-font-prominent-* {
+@utility msys-label-lg-font-prominent-* {
     --mat-sys-label-large-weight-prominent: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-label-md-leading-* {
+@utility msys-label-md-leading-* {
     --mat-sys-label-medium-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-label-md-size-* {
+@utility msys-label-md-size-* {
     --mat-sys-label-medium-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-label-md-tracking-* {
+@utility msys-label-md-tracking-* {
     --mat-sys-label-medium-tracking: --value(number, [number])rem;
 }
-@utility ms-label-md-font-* {
+@utility msys-label-md-font-* {
     --mat-sys-label-medium-weight: --value(--font-weight-*, integer, [integer]);
 }
-@utility ms-label-md-font-prominent-* {
+@utility msys-label-md-font-prominent-* {
     --mat-sys-label-medium-weight-prominent: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-label-sm-leading-* {
+@utility msys-label-sm-leading-* {
     --mat-sys-label-small-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-label-sm-size-* {
+@utility msys-label-sm-size-* {
     --mat-sys-label-small-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-label-sm-tracking-* {
+@utility msys-label-sm-tracking-* {
     --mat-sys-label-small-tracking: --value(number, [number])rem;
 }
-@utility ms-label-sm-font-* {
+@utility msys-label-sm-font-* {
     --mat-sys-label-small-weight: --value(--font-weight-*, integer, [integer]);
 }
 
 /* Title */
-@utility ms-title-lg-leading-* {
+@utility msys-title-lg-leading-* {
     --mat-sys-title-large-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-title-lg-size-* {
+@utility msys-title-lg-size-* {
     --mat-sys-title-large-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-title-lg-tracking-* {
+@utility msys-title-lg-tracking-* {
     --mat-sys-title-large-tracking: --value(number, [number])rem;
 }
-@utility ms-title-lg-font-* {
+@utility msys-title-lg-font-* {
     --mat-sys-title-large-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-title-md-leading-* {
+@utility msys-title-md-leading-* {
     --mat-sys-title-medium-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-title-md-size-* {
+@utility msys-title-md-size-* {
     --mat-sys-title-medium-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-title-md-tracking-* {
+@utility msys-title-md-tracking-* {
     --mat-sys-title-medium-tracking: --value(number, [number])rem;
 }
-@utility ms-title-md-font-* {
+@utility msys-title-md-font-* {
     --mat-sys-title-medium-weight: --value(--font-weight-*, integer, [integer]);
 }
 
-@utility ms-title-sm-leading-* {
+@utility msys-title-sm-leading-* {
     --mat-sys-title-small-line-height: calc(var(--spacing) * --value(number));
 }
-@utility ms-title-sm-size-* {
+@utility msys-title-sm-size-* {
     --mat-sys-title-small-size: calc(var(--spacing) * --value(number));
 }
-@utility ms-title-sm-tracking-* {
+@utility msys-title-sm-tracking-* {
     --mat-sys-title-small-tracking: --value(number, [number])rem;
 }
-@utility ms-title-sm-font-* {
+@utility msys-title-sm-font-* {
     --mat-sys-title-small-weight: --value(--font-weight-*, integer, [integer]);
 }
 /* Corner tokens */
-@utility ms-corner-md-* {
+@utility msys-corner-md-* {
     --mat-sys-corner-medium: calc(var(--radius) * --value(number));
 }
-@utility ms-corner-none-* {
+@utility msys-corner-none-* {
     --mat-sys-corner-none: --value(number, [number])px;
 }
-@utility ms-corner-sm-* {
+@utility msys-corner-sm-* {
     --mat-sys-corner-small: calc(var(--radius) * --value(number));
 }
 
 /* State layer opacity tokens */
-@utility ms-state-dragged-* {
+@utility msys-state-dragged-* {
     --mat-sys-dragged-state-layer-opacity: --value(number, [number]);
 }
-@utility ms-state-focus-* {
+@utility msys-state-focus-* {
     --mat-sys-focus-state-layer-opacity: --value(number, [number]);
 }
-@utility ms-state-hover-* {
+@utility msys-state-hover-* {
     --mat-sys-hover-state-layer-opacity: --value(number, [number]);
 }
-@utility ms-state-pressed-* {
+@utility msys-state-pressed-* {
     --mat-sys-pressed-state-layer-opacity: --value(number, [number]);
 }
