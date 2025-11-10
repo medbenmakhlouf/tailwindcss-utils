@@ -1,0 +1,327 @@
+@utility mst-disabled-selected-handle-opacity-* {
+    --mat-slide-toggle-disabled-selected-handle-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-disabled-selected-icon-opacity-* {
+    --mat-slide-toggle-disabled-selected-icon-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-disabled-track-opacity-* {
+    --mat-slide-toggle-disabled-track-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-disabled-unselected-handle-opacity-* {
+    --mat-slide-toggle-disabled-unselected-handle-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-disabled-unselected-icon-opacity-* {
+    --mat-slide-toggle-disabled-unselected-icon-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-disabled-unselected-track-outline-width-* {
+    --mat-slide-toggle-disabled-unselected-track-outline-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-handle-shape-* {
+    --mat-slide-toggle-handle-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-hidden-track-opacity-* {
+    --mat-slide-toggle-hidden-track-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-hidden-track-transition-* {
+    --mat-slide-toggle-hidden-track-transition: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-pressed-handle-size-* {
+    --mat-slide-toggle-pressed-handle-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-selected-handle-horizontal-margin-* {
+    --mat-slide-toggle-selected-handle-horizontal-margin: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-selected-handle-size-* {
+    --mat-slide-toggle-selected-handle-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-selected-icon-size-* {
+    --mat-slide-toggle-selected-icon-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-selected-pressed-handle-horizontal-margin-* {
+    --mat-slide-toggle-selected-pressed-handle-horizontal-margin: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-selected-track-outline-color-* {
+    --mat-slide-toggle-selected-track-outline-color: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-selected-track-outline-width-* {
+    --mat-slide-toggle-selected-track-outline-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-selected-with-icon-handle-horizontal-margin-* {
+    --mat-slide-toggle-selected-with-icon-handle-horizontal-margin: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-state-layer-size-* {
+    --mat-slide-toggle-state-layer-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-track-height-* {
+    --mat-slide-toggle-track-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-track-outline-width-* {
+    --mat-slide-toggle-track-outline-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-track-shape-* {
+    --mat-slide-toggle-track-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-track-width-* {
+    --mat-slide-toggle-track-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-unselected-handle-horizontal-margin-* {
+    --mat-slide-toggle-unselected-handle-horizontal-margin: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-unselected-handle-size-* {
+    --mat-slide-toggle-unselected-handle-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-unselected-icon-size-* {
+    --mat-slide-toggle-unselected-icon-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-unselected-pressed-handle-horizontal-margin-* {
+    --mat-slide-toggle-unselected-pressed-handle-horizontal-margin: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-unselected-with-icon-handle-horizontal-margin-* {
+    --mat-slide-toggle-unselected-with-icon-handle-horizontal-margin: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-visible-track-opacity-* {
+    --mat-slide-toggle-visible-track-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-visible-track-transition-* {
+    --mat-slide-toggle-visible-track-transition: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-with-icon-handle-size-* {
+    --mat-slide-toggle-with-icon-handle-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-handle-width-* {
+    --mat-slide-toggle-handle-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-handle-height-* {
+    --mat-slide-toggle-handle-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-touch-target-size-* {
+    --mat-slide-toggle-touch-target-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-disabled-label-text-color-* {
+    --mat-slide-toggle-disabled-label-text-color: --value(--color-*);
+}
+
+@utility mst-disabled-selected-handle-color-* {
+    --mat-slide-toggle-disabled-selected-handle-color: --value(--color-*);
+}
+
+@utility mst-disabled-selected-icon-color-* {
+    --mat-slide-toggle-disabled-selected-icon-color: --value(--color-*);
+}
+
+@utility mst-disabled-selected-track-color-* {
+    --mat-slide-toggle-disabled-selected-track-color: --value(--color-*);
+}
+
+@utility mst-disabled-unselected-handle-color-* {
+    --mat-slide-toggle-disabled-unselected-handle-color: --value(--color-*);
+}
+
+@utility mst-disabled-unselected-icon-color-* {
+    --mat-slide-toggle-disabled-unselected-icon-color: --value(--color-*);
+}
+
+@utility mst-disabled-unselected-track-color-* {
+    --mat-slide-toggle-disabled-unselected-track-color: --value(--color-*);
+}
+
+@utility mst-disabled-unselected-track-outline-color-* {
+    --mat-slide-toggle-disabled-unselected-track-outline-color: --value(--color-*);
+}
+
+@utility mst-label-text-color-* {
+    --mat-slide-toggle-label-text-color: --value(--color-*);
+}
+
+@utility mst-selected-focus-handle-color-* {
+    --mat-slide-toggle-selected-focus-handle-color: --value(--color-*);
+}
+
+@utility mst-selected-focus-state-layer-color-* {
+    --mat-slide-toggle-selected-focus-state-layer-color: --value(--color-*);
+}
+
+@utility mst-selected-focus-state-layer-opacity-* {
+    --mat-slide-toggle-selected-focus-state-layer-opacity: --value(--color-*);
+}
+
+@utility mst-selected-focus-track-color-* {
+    --mat-slide-toggle-selected-focus-track-color: --value(--color-*);
+}
+
+@utility mst-selected-handle-color-* {
+    --mat-slide-toggle-selected-handle-color: --value(--color-*);
+}
+
+@utility mst-selected-hover-handle-color-* {
+    --mat-slide-toggle-selected-hover-handle-color: --value(--color-*);
+}
+
+@utility mst-selected-hover-state-layer-color-* {
+    --mat-slide-toggle-selected-hover-state-layer-color: --value(--color-*);
+}
+
+@utility mst-selected-hover-state-layer-opacity-* {
+    --mat-slide-toggle-selected-hover-state-layer-opacity: --value(--color-*);
+}
+
+@utility mst-selected-hover-track-color-* {
+    --mat-slide-toggle-selected-hover-track-color: --value(--color-*);
+}
+
+@utility mst-selected-icon-color-* {
+    --mat-slide-toggle-selected-icon-color: --value(--color-*);
+}
+
+@utility mst-selected-pressed-handle-color-* {
+    --mat-slide-toggle-selected-pressed-handle-color: --value(--color-*);
+}
+
+@utility mst-selected-pressed-state-layer-color-* {
+    --mat-slide-toggle-selected-pressed-state-layer-color: --value(--color-*);
+}
+
+@utility mst-selected-pressed-state-layer-opacity-* {
+    --mat-slide-toggle-selected-pressed-state-layer-opacity: --value(--color-*);
+}
+
+@utility mst-selected-pressed-track-color-* {
+    --mat-slide-toggle-selected-pressed-track-color: --value(--color-*);
+}
+
+@utility mst-selected-track-color-* {
+    --mat-slide-toggle-selected-track-color: --value(--color-*);
+}
+
+@utility mst-track-outline-color-* {
+    --mat-slide-toggle-track-outline-color: --value(--color-*);
+}
+
+@utility mst-unselected-focus-handle-color-* {
+    --mat-slide-toggle-unselected-focus-handle-color: --value(--color-*);
+}
+
+@utility mst-unselected-focus-state-layer-color-* {
+    --mat-slide-toggle-unselected-focus-state-layer-color: --value(--color-*);
+}
+
+@utility mst-unselected-focus-state-layer-opacity-* {
+    --mat-slide-toggle-unselected-focus-state-layer-opacity: --value(--color-*);
+}
+
+@utility mst-unselected-focus-track-color-* {
+    --mat-slide-toggle-unselected-focus-track-color: --value(--color-*);
+}
+
+@utility mst-unselected-handle-color-* {
+    --mat-slide-toggle-unselected-handle-color: --value(--color-*);
+}
+
+@utility mst-unselected-hover-handle-color-* {
+    --mat-slide-toggle-unselected-hover-handle-color: --value(--color-*);
+}
+
+@utility mst-unselected-hover-state-layer-color-* {
+    --mat-slide-toggle-unselected-hover-state-layer-color: --value(--color-*);
+}
+
+@utility mst-unselected-hover-state-layer-opacity-* {
+    --mat-slide-toggle-unselected-hover-state-layer-opacity: --value(--color-*);
+}
+
+@utility mst-unselected-hover-track-color-* {
+    --mat-slide-toggle-unselected-hover-track-color: --value(--color-*);
+}
+
+@utility mst-unselected-icon-color-* {
+    --mat-slide-toggle-unselected-icon-color: --value(--color-*);
+}
+
+@utility mst-unselected-pressed-handle-color-* {
+    --mat-slide-toggle-unselected-pressed-handle-color: --value(--color-*);
+}
+
+@utility mst-unselected-pressed-state-layer-color-* {
+    --mat-slide-toggle-unselected-pressed-state-layer-color: --value(--color-*);
+}
+
+@utility mst-unselected-pressed-state-layer-opacity-* {
+    --mat-slide-toggle-unselected-pressed-state-layer-opacity: --value(--color-*);
+}
+
+@utility mst-unselected-pressed-track-color-* {
+    --mat-slide-toggle-unselected-pressed-track-color: --value(--color-*);
+}
+
+@utility mst-unselected-track-color-* {
+    --mat-slide-toggle-unselected-track-color: --value(--color-*);
+}
+
+@utility mst-handle-surface-color-* {
+    --mat-slide-toggle-handle-surface-color: --value(--color-*);
+}
+
+@utility mst-handle-elevation-shadow-* {
+    --mat-slide-toggle-handle-elevation-shadow: --value(--color-*);
+}
+
+@utility mst-disabled-handle-elevation-shadow-* {
+    --mat-slide-toggle-disabled-handle-elevation-shadow: --value(--color-*);
+}
+
+@utility mst-label-text-font-* {
+    --mat-slide-toggle-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mst-label-text-line-height-* {
+    --mat-slide-toggle-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-label-text-size-* {
+    --mat-slide-toggle-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mst-label-text-tracking-* {
+    --mat-slide-toggle-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mst-label-text-weight-* {
+    --mat-slide-toggle-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mst-touch-target-display-* {
+    --mat-slide-toggle-touch-target-display: calc(var(--spacing) * --value(number));
+}
