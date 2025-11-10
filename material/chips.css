@@ -1,0 +1,191 @@
+/* Base Type Utilities */
+@utility mcp-container-shape-radius-* {
+    --mat-chip-container-shape-radius: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-disabled-container-opacity-* {
+    --mat-chip-disabled-container-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-elevated-container-color-* {
+    --mat-chip-elevated-container-color: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-flat-selected-outline-width-* {
+    --mat-chip-flat-selected-outline-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-outline-width-* {
+    --mat-chip-outline-width: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-trailing-action-focus-opacity-* {
+    --mat-chip-trailing-action-focus-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-trailing-action-opacity-* {
+    --mat-chip-trailing-action-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-with-avatar-avatar-shape-radius-* {
+    --mat-chip-with-avatar-avatar-shape-radius: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-with-avatar-avatar-size-* {
+    --mat-chip-with-avatar-avatar-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-with-avatar-disabled-avatar-opacity-* {
+    --mat-chip-with-avatar-disabled-avatar-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-with-icon-disabled-icon-opacity-* {
+    --mat-chip-with-icon-disabled-icon-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-with-icon-icon-size-* {
+    --mat-chip-with-icon-icon-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-with-trailing-icon-disabled-trailing-icon-opacity-* {
+    --mat-chip-with-trailing-icon-disabled-trailing-icon-opacity: calc(var(--spacing) * --value(number));
+}
+
+/* Color Type Utilities */
+@utility mcp-disabled-label-text-color-* {
+    --mat-chip-disabled-label-text-color: --value(--color-*);
+}
+
+@utility mcp-disabled-outline-color-* {
+    --mat-chip-disabled-outline-color: --value(--color-*);
+}
+
+@utility mcp-elevated-selected-container-color-* {
+    --mat-chip-elevated-selected-container-color: --value(--color-*);
+}
+
+@utility mcp-flat-disabled-selected-container-color-* {
+    --mat-chip-flat-disabled-selected-container-color: --value(--color-*);
+}
+
+@utility mcp-focus-outline-color-* {
+    --mat-chip-focus-outline-color: --value(--color-*);
+}
+
+@utility mcp-focus-state-layer-color-* {
+    --mat-chip-focus-state-layer-color: --value(--color-*);
+}
+
+@utility mcp-focus-state-layer-opacity-* {
+    --mat-chip-focus-state-layer-opacity: --value(--color-*);
+}
+
+@utility mcp-hover-state-layer-color-* {
+    --mat-chip-hover-state-layer-color: --value(--color-*);
+}
+
+@utility mcp-hover-state-layer-opacity-* {
+    --mat-chip-hover-state-layer-opacity: --value(--color-*);
+}
+
+@utility mcp-label-text-color-* {
+    --mat-chip-label-text-color: --value(--color-*);
+}
+
+@utility mcp-outline-color-* {
+    --mat-chip-outline-color: --value(--color-*);
+}
+
+@utility mcp-selected-disabled-trailing-icon-color-* {
+    --mat-chip-selected-disabled-trailing-icon-color: --value(--color-*);
+}
+
+@utility mcp-selected-focus-state-layer-color-* {
+    --mat-chip-selected-focus-state-layer-color: --value(--color-*);
+}
+
+@utility mcp-selected-focus-state-layer-opacity-* {
+    --mat-chip-selected-focus-state-layer-opacity: --value(--color-*);
+}
+
+@utility mcp-selected-hover-state-layer-color-* {
+    --mat-chip-selected-hover-state-layer-color: --value(--color-*);
+}
+
+@utility mcp-selected-hover-state-layer-opacity-* {
+    --mat-chip-selected-hover-state-layer-opacity: --value(--color-*);
+}
+
+@utility mcp-selected-label-text-color-* {
+    --mat-chip-selected-label-text-color: --value(--color-*);
+}
+
+@utility mcp-selected-trailing-action-state-layer-color-* {
+    --mat-chip-selected-trailing-action-state-layer-color: --value(--color-*);
+}
+
+@utility mcp-selected-trailing-icon-color-* {
+    --mat-chip-selected-trailing-icon-color: --value(--color-*);
+}
+
+@utility mcp-trailing-action-focus-state-layer-opacity-* {
+    --mat-chip-trailing-action-focus-state-layer-opacity: --value(--color-*);
+}
+
+@utility mcp-trailing-action-hover-state-layer-opacity-* {
+    --mat-chip-trailing-action-hover-state-layer-opacity: --value(--color-*);
+}
+
+@utility mcp-trailing-action-state-layer-color-* {
+    --mat-chip-trailing-action-state-layer-color: --value(--color-*);
+}
+
+@utility mcp-with-icon-disabled-icon-color-* {
+    --mat-chip-with-icon-disabled-icon-color: --value(--color-*);
+}
+
+@utility mcp-with-icon-icon-color-* {
+    --mat-chip-with-icon-icon-color: --value(--color-*);
+}
+
+@utility mcp-with-icon-selected-icon-color-* {
+    --mat-chip-with-icon-selected-icon-color: --value(--color-*);
+}
+
+@utility mcp-with-trailing-icon-disabled-trailing-icon-color-* {
+    --mat-chip-with-trailing-icon-disabled-trailing-icon-color: --value(--color-*);
+}
+
+@utility mcp-with-trailing-icon-trailing-icon-color-* {
+    --mat-chip-with-trailing-icon-trailing-icon-color: --value(--color-*);
+}
+
+@utility mcp-elevated-disabled-container-color-* {
+    --mat-chip-elevated-disabled-container-color: --value(--color-*);
+}
+
+/* Typography Type Utilities */
+@utility mcp-label-text-leading-* {
+    --mat-chip-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-label-text-size-* {
+    --mat-chip-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mcp-label-text-tracking-* {
+    --mat-chip-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility mcp-label-text-font-* {
+    --mat-chip-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mcp-label-text-weight-* {
+    --mat-chip-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+/* Density Type Utilities */
+@utility mcp-container-height-* {
+    --mat-chip-container-height: calc(var(--spacing) * --value(number));
+}
