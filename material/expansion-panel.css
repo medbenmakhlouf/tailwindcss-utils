@@ -1,0 +1,103 @@
+/* Base Type Utilities */
+@utility mep-container-shape-* {
+    --mat-expansion-panel-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mep-header-indicator-display-* {
+    --mat-expansion-panel-header-indicator-display: calc(var(--spacing) * --value(number));
+}
+
+@utility mep-legacy-header-indicator-display-* {
+    --mat-expansion-panel-legacy-header-indicator-display: calc(var(--spacing) * --value(number));
+}
+
+@utility mep-container-elevation-shadow-* {
+    --mat-expansion-panel-container-elevation-shadow: calc(var(--spacing) * --value(number));
+}
+
+/* Color Type Utilities */
+@utility mep-actions-divider-color-* {
+    --mat-expansion-panel-actions-divider-color: --value(--color-*);
+}
+
+@utility mep-container-background-color-* {
+    --mat-expansion-panel-container-background-color: --value(--color-*);
+}
+
+@utility mep-container-text-color-* {
+    --mat-expansion-panel-container-text-color: --value(--color-*);
+}
+
+@utility mep-header-description-color-* {
+    --mat-expansion-panel-header-description-color: --value(--color-*);
+}
+
+@utility mep-header-disabled-state-text-color-* {
+    --mat-expansion-panel-header-disabled-state-text-color: --value(--color-*);
+}
+
+@utility mep-header-focus-state-layer-color-* {
+    --mat-expansion-panel-header-focus-state-layer-color: --value(--color-*);
+}
+
+@utility mep-header-hover-state-layer-color-* {
+    --mat-expansion-panel-header-hover-state-layer-color: --value(--color-*);
+}
+
+@utility mep-header-indicator-color-* {
+    --mat-expansion-panel-header-indicator-color: --value(--color-*);
+}
+
+@utility mep-header-text-color-* {
+    --mat-expansion-panel-header-text-color: --value(--color-*);
+}
+
+/* Typography Type Utilities */
+@utility mep-container-text-leading-* {
+    --mat-expansion-panel-container-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mep-container-text-size-* {
+    --mat-expansion-panel-container-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mep-container-text-tracking-* {
+    --mat-expansion-panel-container-text-tracking: --value(number, [number])rem;
+}
+
+@utility mep-container-text-font-* {
+    --mat-expansion-panel-container-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mep-container-font-* {
+    --mat-expansion-panel-container-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mep-header-text-leading-* {
+    --mat-expansion-panel-header-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mep-header-text-size-* {
+    --mat-expansion-panel-header-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mep-header-text-tracking-* {
+    --mat-expansion-panel-header-text-tracking: --value(number, [number])rem;
+}
+
+@utility mep-header-text-font-* {
+    --mat-expansion-panel-header-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mep-header-font-* {
+    --mat-expansion-panel-header-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+/* Density Type Utilities */
+@utility mep-header-collapsed-state-height-* {
+    --mat-expansion-panel-header-collapsed-state-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mep-header-expanded-state-height-* {
+    --mat-expansion-panel-header-expanded-state-height: calc(var(--spacing) * --value(number));
+}
