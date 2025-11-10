@@ -1,0 +1,11 @@
+@utility mtp-container-shape-* {
+    --mat-timepicker-container-shape: calc(var(--spacing) * --value(number));
+}
+
+@utility mtp-container-background-color-* {
+    --mat-timepicker-container-background-color: --value(--color-*);
+}
+
+@utility mtp-container-elevation-shadow-* {
+    --mat-timepicker-container-elevation-shadow: --value(--color-*);
+}

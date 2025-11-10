@@ -1,0 +1,23 @@
+@utility mtr-container-background-color-* {
+    --mat-tree-container-background-color: --value(--color-*);
+}
+
+@utility mtr-node-text-color-* {
+    --mat-tree-node-text-color: --value(--color-*);
+}
+
+@utility mtr-node-text-font-* {
+    --mat-tree-node-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mtr-node-text-size-* {
+    --mat-tree-node-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mtr-node-text-weight-* {
+    --mat-tree-node-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mtr-node-min-height-* {
+    --mat-tree-node-min-height: calc(var(--spacing) * --value(number));
+}

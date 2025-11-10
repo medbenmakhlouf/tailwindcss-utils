@@ -1,0 +1,35 @@
+@utility mtr-container-background-color-* {
+    --mat-toolbar-container-background-color: --value(--color-*);
+}
+
+@utility mtr-container-text-color-* {
+    --mat-toolbar-container-text-color: --value(--color-*);
+}
+
+@utility mtr-title-text-font-* {
+    --mat-toolbar-title-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mtr-title-text-line-height-* {
+    --mat-toolbar-title-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mtr-title-text-size-* {
+    --mat-toolbar-title-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mtr-title-text-tracking-* {
+    --mat-toolbar-title-text-tracking: --value(number, [number])rem;
+}
+
+@utility mtr-title-text-weight-* {
+    --mat-toolbar-title-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mtr-standard-height-* {
+    --mat-toolbar-standard-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mtr-mobile-height-* {
+    --mat-toolbar-mobile-height: calc(var(--spacing) * --value(number));
+}

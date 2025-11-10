@@ -1,0 +1,31 @@
+@utility mtt-container-color-* {
+    --mat-tooltip-container-color: --value(--color-*);
+}
+
+@utility mtt-container-shape-* {
+    --mat-tooltip-container-shape: --value(--color-*);
+}
+
+@utility mtt-supporting-text-color-* {
+    --mat-tooltip-supporting-text-color: --value(--color-*);
+}
+
+@utility mtt-supporting-text-font-* {
+    --mat-tooltip-supporting-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility mtt-supporting-text-line-height-* {
+    --mat-tooltip-supporting-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility mtt-supporting-text-size-* {
+    --mat-tooltip-supporting-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility mtt-supporting-text-tracking-* {
+    --mat-tooltip-supporting-text-tracking: --value(number, [number])rem;
+}
+
+@utility mtt-supporting-text-weight-* {
+    --mat-tooltip-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
+}
