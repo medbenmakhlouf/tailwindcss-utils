@@ -1,0 +1,175 @@
+@utility msr-value-indicator-opacity-* {
+    --mat-slider-value-indicator-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-value-indicator-padding-* {
+    --mat-slider-value-indicator-padding: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-value-indicator-width-* {
+    --mat-slider-value-indicator-width: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-value-indicator-height-* {
+    --mat-slider-value-indicator-height: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-value-indicator-caret-display-* {
+    --mat-slider-value-indicator-caret-display: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-value-indicator-border-radius-* {
+    --mat-slider-value-indicator-border-radius: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-value-indicator-text-transform-* {
+    --mat-slider-value-indicator-text-transform: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-value-indicator-container-transform-* {
+    --mat-slider-value-indicator-container-transform: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-active-track-height-* {
+    --mat-slider-active-track-height: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-handle-height-* {
+    --mat-slider-handle-height: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-handle-width-* {
+    --mat-slider-handle-width: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-inactive-track-height-* {
+    --mat-slider-inactive-track-height: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-with-overlap-handle-outline-width-* {
+    --mat-slider-with-overlap-handle-outline-width: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-with-tick-marks-active-container-opacity-* {
+    --mat-slider-with-tick-marks-active-container-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-with-tick-marks-container-size-* {
+    --mat-slider-with-tick-marks-container-size: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-with-tick-marks-inactive-container-opacity-* {
+    --mat-slider-with-tick-marks-inactive-container-opacity: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-value-indicator-transform-origin-* {
+    --mat-slider-value-indicator-transform-origin: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-active-track-color-* {
+    --mat-slider-active-track-color: --value(--color-*);
+}
+
+@utility msr-active-track-shape-* {
+    --mat-slider-active-track-shape: --value(--color-*);
+}
+
+@utility msr-disabled-active-track-color-* {
+    --mat-slider-disabled-active-track-color: --value(--color-*);
+}
+
+@utility msr-disabled-handle-color-* {
+    --mat-slider-disabled-handle-color: --value(--color-*);
+}
+
+@utility msr-disabled-inactive-track-color-* {
+    --mat-slider-disabled-inactive-track-color: --value(--color-*);
+}
+
+@utility msr-focus-handle-color-* {
+    --mat-slider-focus-handle-color: --value(--color-*);
+}
+
+@utility msr-focus-state-layer-color-* {
+    --mat-slider-focus-state-layer-color: --value(--color-*);
+}
+
+@utility msr-handle-color-* {
+    --mat-slider-handle-color: --value(--color-*);
+}
+
+@utility msr-handle-elevation-* {
+    --mat-slider-handle-elevation: --value(--color-*);
+}
+
+@utility msr-handle-shape-* {
+    --mat-slider-handle-shape: --value(--color-*);
+}
+
+@utility msr-hover-handle-color-* {
+    --mat-slider-hover-handle-color: --value(--color-*);
+}
+
+@utility msr-hover-state-layer-color-* {
+    --mat-slider-hover-state-layer-color: --value(--color-*);
+}
+
+@utility msr-inactive-track-color-* {
+    --mat-slider-inactive-track-color: --value(--color-*);
+}
+
+@utility msr-inactive-track-shape-* {
+    --mat-slider-inactive-track-shape: --value(--color-*);
+}
+
+@utility msr-label-container-color-* {
+    --mat-slider-label-container-color: --value(--color-*);
+}
+
+@utility msr-label-label-text-color-* {
+    --mat-slider-label-label-text-color: --value(--color-*);
+}
+
+@utility msr-ripple-color-* {
+    --mat-slider-ripple-color: --value(--color-*);
+}
+
+@utility msr-with-overlap-handle-outline-color-* {
+    --mat-slider-with-overlap-handle-outline-color: --value(--color-*);
+}
+
+@utility msr-with-tick-marks-active-container-color-* {
+    --mat-slider-with-tick-marks-active-container-color: --value(--color-*);
+}
+
+@utility msr-with-tick-marks-container-shape-* {
+    --mat-slider-with-tick-marks-container-shape: --value(--color-*);
+}
+
+@utility msr-with-tick-marks-disabled-container-color-* {
+    --mat-slider-with-tick-marks-disabled-container-color: --value(--color-*);
+}
+
+@utility msr-with-tick-marks-inactive-container-color-* {
+    --mat-slider-with-tick-marks-inactive-container-color: --value(--color-*);
+}
+
+@utility msr-label-label-text-font-* {
+    --mat-slider-label-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility msr-label-label-text-line-height-* {
+    --mat-slider-label-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-label-label-text-size-* {
+    --mat-slider-label-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility msr-label-label-text-tracking-* {
+    --mat-slider-label-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility msr-label-label-text-weight-* {
+    --mat-slider-label-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
