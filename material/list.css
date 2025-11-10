@@ -1,0 +1,210 @@
+/* Color Type Utilities */
+@utility ml-active-indicator-color-* {
+    --mat-list-active-indicator-color: --value(--color-*);
+}
+
+@utility ml-active-indicator-shape-* {
+    --mat-list-active-indicator-shape: --value(--color-*);
+}
+
+@utility ml-list-item-container-color-* {
+    --mat-list-list-item-container-color: --value(--color-*);
+}
+
+@utility ml-list-item-container-shape-* {
+    --mat-list-list-item-container-shape: --value(--color-*);
+}
+
+@utility ml-list-item-disabled-label-text-color-* {
+    --mat-list-list-item-disabled-label-text-color: --value(--color-*);
+}
+
+@utility ml-list-item-disabled-label-text-opacity-* {
+    --mat-list-list-item-disabled-label-text-opacity: --value(--color-*);
+}
+
+@utility ml-list-item-disabled-leading-icon-color-* {
+    --mat-list-list-item-disabled-leading-icon-color: --value(--color-*);
+}
+
+@utility ml-list-item-disabled-leading-icon-opacity-* {
+    --mat-list-list-item-disabled-leading-icon-opacity: --value(--color-*);
+}
+
+@utility ml-list-item-disabled-state-layer-color-* {
+    --mat-list-list-item-disabled-state-layer-color: --value(--color-*);
+}
+
+@utility ml-list-item-disabled-state-layer-opacity-* {
+    --mat-list-list-item-disabled-state-layer-opacity: --value(--color-*);
+}
+
+@utility ml-list-item-disabled-trailing-icon-color-* {
+    --mat-list-list-item-disabled-trailing-icon-color: --value(--color-*);
+}
+
+@utility ml-list-item-disabled-trailing-icon-opacity-* {
+    --mat-list-list-item-disabled-trailing-icon-opacity: --value(--color-*);
+}
+
+@utility ml-list-item-focus-label-text-color-* {
+    --mat-list-list-item-focus-label-text-color: --value(--color-*);
+}
+
+@utility ml-list-item-focus-state-layer-color-* {
+    --mat-list-list-item-focus-state-layer-color: --value(--color-*);
+}
+
+@utility ml-list-item-focus-state-layer-opacity-* {
+    --mat-list-list-item-focus-state-layer-opacity: --value(--color-*);
+}
+
+@utility ml-list-item-hover-label-text-color-* {
+    --mat-list-list-item-hover-label-text-color: --value(--color-*);
+}
+
+@utility ml-list-item-hover-state-layer-color-* {
+    --mat-list-list-item-hover-state-layer-color: --value(--color-*);
+}
+
+@utility ml-list-item-hover-state-layer-opacity-* {
+    --mat-list-list-item-hover-state-layer-opacity: --value(--color-*);
+}
+
+@utility ml-list-item-label-text-color-* {
+    --mat-list-list-item-label-text-color: --value(--color-*);
+}
+
+@utility ml-list-item-leading-avatar-color-* {
+    --mat-list-list-item-leading-avatar-color: --value(--color-*);
+}
+
+@utility ml-list-item-leading-avatar-shape-* {
+    --mat-list-list-item-leading-avatar-shape: --value(--color-*);
+}
+
+@utility ml-list-item-leading-avatar-size-* {
+    --mat-list-list-item-leading-avatar-size: --value(--color-*);
+}
+
+@utility ml-list-item-leading-icon-color-* {
+    --mat-list-list-item-leading-icon-color: --value(--color-*);
+}
+
+@utility ml-list-item-leading-icon-size-* {
+    --mat-list-list-item-leading-icon-size: --value(--color-*);
+}
+
+@utility ml-list-item-selected-trailing-icon-color-* {
+    --mat-list-list-item-selected-trailing-icon-color: --value(--color-*);
+}
+
+@utility ml-list-item-supporting-text-color-* {
+    --mat-list-list-item-supporting-text-color: --value(--color-*);
+}
+
+@utility ml-list-item-trailing-icon-color-* {
+    --mat-list-list-item-trailing-icon-color: --value(--color-*);
+}
+
+@utility ml-list-item-trailing-icon-size-* {
+    --mat-list-list-item-trailing-icon-size: --value(--color-*);
+}
+
+@utility ml-list-item-trailing-supporting-text-color-* {
+    --mat-list-list-item-trailing-supporting-text-color: --value(--color-*);
+}
+
+@utility ml-list-item-selected-container-color-* {
+    --mat-list-list-item-selected-container-color: --value(--color-*);
+}
+
+@utility ml-list-item-hover-leading-icon-color-* {
+    --mat-list-list-item-hover-leading-icon-color: --value(--color-*);
+}
+
+@utility ml-list-item-hover-trailing-icon-color-* {
+    --mat-list-list-item-hover-trailing-icon-color: --value(--color-*);
+}
+
+/* Typography Type Utilities */
+@utility ml-list-item-label-text-leading-* {
+    --mat-list-list-item-label-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility ml-list-item-label-text-size-* {
+    --mat-list-list-item-label-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility ml-list-item-label-text-tracking-* {
+    --mat-list-list-item-label-text-tracking: --value(number, [number])rem;
+}
+
+@utility ml-list-item-label-text-font-* {
+    --mat-list-list-item-label-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility ml-list-item-label-text-weight-* {
+    --mat-list-list-item-label-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility ml-list-item-supporting-text-leading-* {
+    --mat-list-list-item-supporting-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility ml-list-item-supporting-text-size-* {
+    --mat-list-list-item-supporting-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility ml-list-item-supporting-text-tracking-* {
+    --mat-list-list-item-supporting-text-tracking: --value(number, [number])rem;
+}
+
+@utility ml-list-item-supporting-text-font-* {
+    --mat-list-list-item-supporting-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility ml-list-item-supporting-text-weight-* {
+    --mat-list-list-item-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility ml-list-item-trailing-supporting-text-leading-* {
+    --mat-list-list-item-trailing-supporting-text-line-height: calc(var(--spacing) * --value(number));
+}
+
+@utility ml-list-item-trailing-supporting-text-size-* {
+    --mat-list-list-item-trailing-supporting-text-size: calc(var(--spacing) * --value(number));
+}
+
+@utility ml-list-item-trailing-supporting-text-tracking-* {
+    --mat-list-list-item-trailing-supporting-text-tracking: --value(number, [number])rem;
+}
+
+@utility ml-list-item-trailing-supporting-text-font-* {
+    --mat-list-list-item-trailing-supporting-text-font: --value(--font-weight-*, integer, [integer]);
+}
+
+@utility ml-list-item-trailing-supporting-text-weight-* {
+    --mat-list-list-item-trailing-supporting-text-weight: --value(--font-weight-*, integer, [integer]);
+}
+
+/* Density Type Utilities */
+@utility ml-list-item-leading-icon-start-space-* {
+    --mat-list-list-item-leading-icon-start-space: calc(var(--spacing) * --value(number));
+}
+
+@utility ml-list-item-leading-icon-end-space-* {
+    --mat-list-list-item-leading-icon-end-space: calc(var(--spacing) * --value(number));
+}
+
+@utility ml-list-item-one-line-container-height-* {
+    --mat-list-list-item-one-line-container-height: calc(var(--spacing) * --value(number));
+}
+
+@utility ml-list-item-two-line-container-height-* {
+    --mat-list-list-item-two-line-container-height: calc(var(--spacing) * --value(number));
+}
+
+@utility ml-list-item-three-line-container-height-* {
+    --mat-list-list-item-three-line-container-height: calc(var(--spacing) * --value(number));
+}
