@@ -1,0 +1,4 @@
+/* Base Type Utilities */
+@utility msa-* {
+    --mat-sort-arrow-color: --value(--color-*);
+}
