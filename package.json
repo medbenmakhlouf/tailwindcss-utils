@@ -56,7 +56,7 @@
   "files": [
     "dist",
     "ionic/index.css",
-    "material/index.css"
+    "angular-material/index.css"
   ],
   "exports": {
     "./dist": "./dist/ionic-utils.css",
