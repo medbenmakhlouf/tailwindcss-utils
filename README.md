@@ -5,7 +5,7 @@ Tailwind CSS v4 utility library for Ionic & Angular Material. Provides dynamic u
 ## 📦 Installation
 
 ```bash
-npm install @tailwindcss/utils
+npm install tailwindcss-utils
 ```
 
 ## 🧩 Usage
